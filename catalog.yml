@@ -1,0 +1,21 @@
+description: "AC3airborne Intake Data Catalog"
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  Polar5:
+    args:
+      path: "{{CATALOG_DIR}}/Polar5/main.yaml"
+    description: 'Data from the Polar 5 aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
+  Polar6:
+    args:
+      path: "{{CATALOG_DIR}}/Polar6/main.yaml"
+    description: 'Data from the Polar 6 aircraft'
+    driver: yaml_file_cat
+    metadata: {}
