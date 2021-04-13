@@ -4,14 +4,14 @@ plugins:
   source:
     - module: intake_xarray
 
-#sources:
+sources:
 
-#  Polar5:
-#    args:
-#      path: "{{CATALOG_DIR}}/Polar5/main.yaml"
-#    description: 'Data from the Polar 5 aircraft'
-#    driver: yaml_file_cat
-#    metadata: {}
+  Polar5:
+    args:
+      path: "{{CATALOG_DIR}}/Polar5/main.yaml"
+    description: 'Data from the Polar 5 aircraft'
+    driver: yaml_file_cat
+    metadata: {}
 
 #  Polar6:
 #    args:
