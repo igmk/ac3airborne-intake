@@ -4,8 +4,6 @@ plugins:
 
 sources:
   ACLOUD-P5-RF05:
-    driver: opendap
+    driver: netcdf
     args:
       urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170525_RF05.nc
-      auth: null
-      chunks: null
