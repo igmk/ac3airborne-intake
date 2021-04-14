@@ -1,9 +1,101 @@
+# file prepared with for i in `find ac3/acloud -name "*.nc"`; do echo "  ACLOUD-P5-RF:";echo "    driver: netcdf";echo "    args:";echo "      urlpath: https://atmos.meteo.uni-koeln.de/$i";echo "";done
 plugins:
   source:
     - module: intake_xarray
 
 sources:
+
+  ACLOUD-P5-RF04:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170523_RF04.nc
+
   ACLOUD-P5-RF05:
     driver: netcdf
     args:
       urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170525_RF05.nc
+
+  ACLOUD-P5-RF06:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170527_RF06.nc
+
+  ACLOUD-P5-RF07:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170527_RF07.nc
+
+  ACLOUD-P5-RF08:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170529_RF08.nc
+
+  ACLOUD-P5-RF10:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170531_RF10.nc
+
+  ACLOUD-P5-RF11:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170602_RF11.nc
+
+  ACLOUD-P5-RF13:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170605_RF13.nc
+
+  ACLOUD-P5-RF14:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170608_RF14.nc
+
+  ACLOUD-P5-RF15:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170609_RF15.nc
+
+  ACLOUD-P5-RF16:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170613_RF16.nc
+
+  ACLOUD-P5-RF17:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170614_RF17.nc
+
+  ACLOUD-P5-RF18:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170616_RF18.nc
+
+  ACLOUD-P5-RF19:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170617_RF19.nc
+
+  ACLOUD-P5-RF20:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170618_RF20.nc
+
+  ACLOUD-P5-RF21:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170620_RF21.nc
+
+  ACLOUD-P5-RF22:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170623_RF22.nc
+
+  ACLOUD-P5-RF23:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170625_RF23.nc
+
+  ACLOUD-P5-RF25:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/gps_ins/ACLOUD_polar5_20170626_RF25.nc
