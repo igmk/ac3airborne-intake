@@ -174,7 +174,7 @@ sources:
     args:
       urlpath: https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/amsr2_sea_ice_concentration/MOSAiC-ACA_polar5_20200830_RF02.nc
 
-  MOSAiC-ACA_P5_RF03:
+  MOSAiC_ACA_P5_RF03:
     driver: netcdf
     args:
       urlpath: https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/amsr2_sea_ice_concentration/MOSAiC-ACA_polar5_20200831_RF03.nc
