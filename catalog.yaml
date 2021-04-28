@@ -9,6 +9,6 @@ sources:
   Polar6:
     args:
       path: "{{CATALOG_DIR}}/P6/main.yaml"
-    description: 'Data from the Polar 6 aircraft'
+    description: "Data from the Polar 6 aircraft"
     driver: yaml_file_cat
     metadata: {}
