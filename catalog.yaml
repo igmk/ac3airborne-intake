@@ -7,15 +7,15 @@ plugins:
 sources:
 
   Polar5:
+    driver: yaml_file_cat
     args:
       path: "{{CATALOG_DIR}}/P5/main.yaml"
-    description: Data from the Polar 5 aircraft
-    driver: yaml_file_cat
+    description: 'Data from the Polar 5 aircraft'
     metadata: {}
 
   Polar6:
     args:
       path: "{{CATALOG_DIR}}/P6/main.yaml"
-    description: "Data from the Polar 6 aircraft"
+    description: 'Data from the Polar 6 aircraft'
     driver: yaml_file_cat
     metadata: {}
