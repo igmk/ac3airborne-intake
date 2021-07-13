@@ -17,6 +17,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  CLOUD_TOP_HEIGHT:
+    args:
+      path: "{{CATALOG_DIR}}/cloud_top_height.yaml"
+    description: 'Cloud top height product derived from AMALi'
+    driver: yaml_file_cat
+    metadata: {}
+
   # specMACS:
   #   args:
   #     path: "{{CATALOG_DIR}}/specmacs/main.yaml"
