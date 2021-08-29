@@ -45,6 +45,14 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  DROPSONDES:
+    args:
+      path: "{{CATALOG_DIR}}/dropsondes.yaml"
+    description: 'Launched dropsondes'
+    driver: yaml_file_cat
+    metadata: {}
+
+
   # KT19:
   #   args:
   #     path: "{{CATALOG_DIR}}/kt19.yaml"
