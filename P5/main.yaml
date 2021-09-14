@@ -6,7 +6,7 @@ sources:
   GPS_INS:
     args:
       path: "{{CATALOG_DIR}}/gps_ins.yaml"
-    description: 'Aicraft position and attitude data'
+    description: 'Aircraft position and attitude data'
     driver: yaml_file_cat
     metadata: {}
 
