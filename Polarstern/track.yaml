@@ -1,0 +1,12 @@
+sources:
+  PASCAL:
+    driver: csv
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/nav/mastertrack/ps/PS106_1_mastertrack.zip
+      csv_kwargs:
+        sep: "\t"
+        usecols: [0, 1, 2]
+        names: ["time", "lat", "lon"]
+        header: 0
+        parse_dates: ["time"]
+        blocksize: null
