@@ -19,3 +19,10 @@ sources:
     description: 'Data from the Polar 6 aircraft'
     driver: yaml_file_cat
     metadata: {}
+
+  Polarstern:
+    args:
+      path: "{{CATALOG_DIR}}/Polarstern/main.yaml"
+    description: 'Data from the research vessel Polarstern'
+    driver: yaml_file_cat
+    metadata: {}
