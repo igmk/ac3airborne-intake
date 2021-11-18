@@ -6,4 +6,4 @@ sources:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170510_02_P5_turbdata.asc.gz
       csv_kwargs:
         sep: '\s+'
-        blocksize: 1
+        blocksize: null
