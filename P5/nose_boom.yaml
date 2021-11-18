@@ -9,4 +9,4 @@ sources:
         header: null
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
-        
+        blocksize: null
