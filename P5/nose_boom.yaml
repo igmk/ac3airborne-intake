@@ -5,4 +5,8 @@ sources:
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170510_02_P5_turbdata.asc.gz
       csv_kwargs:
-        sep: '!\s+|\s+'
+        sep: '\s+'
+        header: null
+        names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
+        comment: '!'
+        
