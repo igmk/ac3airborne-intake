@@ -11,6 +11,7 @@ sources:
   #       comment: '!'
   #       blocksize: null
   #       engine: 'python'
+  #       encoding_errors: 'ignore'
 
   # ACLOUD_P5_RF:
   #   driver: csv
@@ -23,6 +24,7 @@ sources:
   #       comment: '!'
   #       blocksize: null
   #       engine: 'python'
+  #       encoding_errors: 'ignore'
 
   # ACLOUD_P5_RF:
   #   driver: csv
@@ -35,6 +37,7 @@ sources:
   #       comment: '!'
   #       blocksize: null
   #       engine: 'python'
+  #       encoding_errors: 'ignore'
 
   # ACLOUD_P5_RF:
   #   driver: csv
@@ -47,6 +50,7 @@ sources:
   #       comment: '!'
   #       blocksize: null
   #       engine: 'python'
+  #       encoding_errors: 'ignore'
 
   ACLOUD_P5_RF04:
     driver: csv
@@ -59,6 +63,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF05:
     driver: csv
@@ -71,6 +76,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF06:
     driver: csv
@@ -83,6 +89,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF07:
     driver: csv
@@ -95,6 +102,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF08:
     driver: csv
@@ -107,6 +115,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF10:
     driver: csv
@@ -119,6 +128,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF11:
     driver: csv
@@ -131,6 +141,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF13:
     driver: csv
@@ -143,6 +154,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF14:
     driver: csv
@@ -155,6 +167,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF15:
     driver: csv
@@ -167,6 +180,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF16:
     driver: csv
@@ -179,6 +193,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF17:
     driver: csv
@@ -191,6 +206,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF18:
     driver: csv
@@ -203,6 +219,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF19:
     driver: csv
@@ -215,6 +232,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF20:
     driver: csv
@@ -227,6 +245,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF21:
     driver: csv
@@ -239,6 +258,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF22:
     driver: csv
@@ -251,6 +271,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF23:
     driver: csv
@@ -263,6 +284,7 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
 
   ACLOUD_P5_RF25:
     driver: csv
@@ -275,3 +297,4 @@ sources:
         comment: '!'
         blocksize: null
         engine: 'python'
+        encoding_errors: 'ignore'
