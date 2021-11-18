@@ -17,6 +17,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  NOSE_BOOM:
+    args:
+      path: "{{CATALOG_DIR}}/nose_boom.yaml"
+    description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
   # specMACS:
   #   args:
   #     path: "{{CATALOG_DIR}}/specmacs/main.yaml"
