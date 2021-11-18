@@ -10,6 +10,7 @@ sources:
   #       names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
   #       comment: '!'
   #       blocksize: null
+  #       engine: 'python'
 
   # ACLOUD_P6_RF:
   #   driver: csv
@@ -21,6 +22,7 @@ sources:
   #       names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
   #       comment: '!'
   #       blocksize: null
+  #       engine: 'python'
 
   # ACLOUD_P6_RF:
   #   driver: csv
@@ -32,6 +34,7 @@ sources:
   #       names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
   #       comment: '!'
   #       blocksize: null
+  #       engine: 'python'
 
   # ACLOUD_P6_RF:
   #   driver: csv
@@ -43,6 +46,7 @@ sources:
   #       names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
   #       comment: '!'
   #       blocksize: null
+  #       engine: 'python'
 
   # ACLOUD_P6_RF:
   #   driver: csv
@@ -54,6 +58,7 @@ sources:
   #       names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
   #       comment: '!'
   #       blocksize: null
+  #       engine: 'python'
 
   ACLOUD_P6_RF07:
     driver: csv
@@ -65,6 +70,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF08:
     driver: csv
@@ -76,6 +82,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF09:
     driver: csv
@@ -87,6 +94,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF10:
     driver: csv
@@ -98,6 +106,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF11:
     driver: csv
@@ -109,6 +118,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF12:
     driver: csv
@@ -120,6 +130,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF13:
     driver: csv
@@ -131,6 +142,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF14:
     driver: csv
@@ -142,6 +154,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF15:
     driver: csv
@@ -153,6 +166,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF16:
     driver: csv
@@ -164,6 +178,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF17:
     driver: csv
@@ -175,6 +190,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF18:
     driver: csv
@@ -186,6 +202,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF19:
     driver: csv
@@ -197,6 +214,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF20:
     driver: csv
@@ -208,6 +226,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF21:
     driver: csv
@@ -219,6 +238,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF22:
     driver: csv
@@ -230,6 +250,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF23:
     driver: csv
@@ -241,6 +262,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF24:
     driver: csv
@@ -252,6 +274,7 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
 
   ACLOUD_P6_RF25:
     driver: csv
@@ -263,3 +286,4 @@ sources:
         names: ['t', 'lon', 'lat', 'h', 'p', 'T', 'u', 'v', 'w', 'pitch', 'roll', 'thdg']
         comment: '!'
         blocksize: null
+        engine: 'python'
