@@ -7,3 +7,4 @@ sources:
       csv_kwargs:
         sep: '!\s+'
         blocksize: null
+        engine: 'python'
