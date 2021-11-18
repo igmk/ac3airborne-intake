@@ -108,6 +108,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  NOSE_BOOM:
+    args:
+      path: "{{CATALOG_DIR}}/nose_boom.yaml"
+    description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
+    driver: yaml_file_cat
+    metadata: {}
+
   # KT19:
   #   args:
   #     path: "{{CATALOG_DIR}}/kt19.yaml"
