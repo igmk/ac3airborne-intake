@@ -243,12 +243,12 @@ sources:
   PAMARCMiP_P5_RF07:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180326_RF07.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180327_RF07.nc
 
   PAMARCMiP_P5_RF08:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180327_RF08.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180328_RF08.nc
 
   PAMARCMiP_P5_RF09:
     driver: netcdf
@@ -258,17 +258,17 @@ sources:
   PAMARCMiP_P5_RF10:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180328_RF10.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180330_RF10.nc
 
   PAMARCMiP_P5_RF11:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180330_RF11.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180331_RF11.nc
 
   PAMARCMiP_P5_RF12:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180331_RF12.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180402_RF12.nc
 
   PAMARCMiP_P5_RF13:
     driver: netcdf
@@ -278,7 +278,7 @@ sources:
   PAMARCMiP_P5_RF14:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180402_RF14.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180403_RF14.nc
 
   PAMARCMiP_P5_RF15:
     driver: netcdf
@@ -288,9 +288,5 @@ sources:
   PAMARCMiP_P5_RF16:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180403_RF16.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180404_RF16.nc
 
-  PAMARCMiP_P5_RF17:
-    driver: netcdf
-    args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/gps_ins/gps_ins_PAMARCMiP_polar5_20180404_RF17.nc
