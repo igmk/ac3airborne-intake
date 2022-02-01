@@ -23,6 +23,13 @@ sources:
     description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
     driver: yaml_file_cat
     metadata: {}
+  
+  CDP_CIP_PIP:
+    args:
+      path: "{{CATALOG_DIR}}/cdp_cip_pip.yaml"
+    description: 'CDP, CIP and PIP In-situ arctic cloud microphysical properties'
+    driver: yaml_file_cat
+    metadata: {}
 
   # specMACS:
   #   args:
