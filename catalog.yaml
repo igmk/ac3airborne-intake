@@ -15,28 +15,22 @@ sources:
     metadata: {}
 
   PAMARCMiP:
-
-    P5:
       args:
-        path: "{{CATALOG_DIR}}/PAMARCMiP/P5/main.yaml"
+        path: "{{CATALOG_DIR}}/PAMARCMiP/main.yaml"
       description: 'Data from the Polar 5 aircraft during PAMARCMiP'
       driver: yaml_file_cat
       metadata: {}
 
   AFLUX:
-
-    P5:
       args:
-        path: "{{CATALOG_DIR}}/AFLUX/P5/main.yaml"
+        path: "{{CATALOG_DIR}}/AFLUX/main.yaml"
       description: 'Data from the Polar 5 aircraft during AFLUX'
       driver: yaml_file_cat
       metadata: {}
 
   MOSAiC-ACA:
-
-    P5:
       args:
-        path: "{{CATALOG_DIR}}/MOSAiC-ACA/P5/main.yaml"
+        path: "{{CATALOG_DIR}}/MOSAiC-ACA/main.yaml"
       description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
       driver: yaml_file_cat
       metadata: {}
