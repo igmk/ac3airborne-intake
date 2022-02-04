@@ -28,7 +28,7 @@ sources:
       driver: yaml_file_cat
       metadata: {}
 
-  MOSAiC_ACA:
+  MOSAiC-ACA:
       args:
         path: "{{CATALOG_DIR}}/MOSAiC-ACA/main.yaml"
       description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
