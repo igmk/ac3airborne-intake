@@ -1,0 +1,113 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  AFLUX_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190319.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190323.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190324.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190325.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190330.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190331.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190401.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190403.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str
+
+  AFLUX_P5_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/921996/files/DS_AFLUX_Flight_20190411.nc
+      xarray_kwargs:
+        group: Dropsonde_#{{i_sonde}}
+        decode_times: False
+    parameters:
+      i_sonde:
+        description: 'number of sonde of flight'
+        type: str

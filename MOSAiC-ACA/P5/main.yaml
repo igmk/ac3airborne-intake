@@ -31,13 +31,6 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  MIRAC_P:
-    args:
-      path: "{{CATALOG_DIR}}/mirac_p.yaml"
-    description: 'MiRAC-P 6x183, 243 and 340 GHz radiometer data'
-    driver: yaml_file_cat
-    metadata: {}
-
   HATPRO:
     args:
       path: "{{CATALOG_DIR}}/hatpro.yaml"
@@ -49,13 +42,6 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/nevzorov.yaml"
     description: 'Nevzorov sensor'
-    driver: yaml_file_cat
-    metadata: {}
-
-  CAS:
-    args:
-      path: "{{CATALOG_DIR}}/cas.yaml"
-    description: 'CAS in-situ probe'
     driver: yaml_file_cat
     metadata: {}
 
@@ -100,25 +86,4 @@ sources:
     description: 'Fish-eye camera radiances'
     driver: yaml_file_cat
     metadata: {}
-  
-  BROADBAND_IRRADIANCE:
-    args:
-      path: "{{CATALOG_DIR}}/broadband_irradiance.yaml"
-    description: 'Solar and terrestrial broadband irradiance and nadir brightness temperature'
-    driver: yaml_file_cat
-    metadata: {}
-
-  NOSE_BOOM:
-    args:
-      path: "{{CATALOG_DIR}}/nose_boom.yaml"
-    description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
-    driver: yaml_file_cat
-    metadata: {}
-
-  # KT19:
-  #   args:
-  #     path: "{{CATALOG_DIR}}/kt19.yaml"
-  #   description: KT-19 thermal infrared radiometer data
-  #   driver: yaml_file_cat
-  #   metadata: {}
 
