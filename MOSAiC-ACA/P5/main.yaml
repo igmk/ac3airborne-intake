@@ -24,9 +24,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  MIRAC_A:
+  MiRAC-A:
     args:
-      path: "{{CATALOG_DIR}}/mirac_a.yaml"
+      path: "{{CATALOG_DIR}}/mirac-a.yaml"
     description: 'MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data'
     driver: yaml_file_cat
     metadata: {}
