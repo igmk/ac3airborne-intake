@@ -6,23 +6,87 @@ plugins:
 
 sources:
 
-  P5:
+  ACLOUD:
+
     args:
-      path: "{{CATALOG_DIR}}/P5/main.yaml"
-    description: 'Data from the Polar 5 aircraft'
+      path: "{{CATALOG_DIR}}/ACLOUD/main.yaml"
+    description: 'Data from the ACLOUD campaign'
     driver: yaml_file_cat
     metadata: {}
 
-  P6:
-    args:
-      path: "{{CATALOG_DIR}}/P6/main.yaml"
-    description: 'Data from the Polar 6 aircraft'
-    driver: yaml_file_cat
-    metadata: {}
+  PAMARCMiP:
 
-  Polarstern:
-    args:
-      path: "{{CATALOG_DIR}}/Polarstern/main.yaml"
-    description: 'Data from the research vessel Polarstern'
-    driver: yaml_file_cat
-    metadata: {}
+    P5:
+      args:
+        path: "{{CATALOG_DIR}}/PAMARCMiP/P5/main.yaml"
+      description: 'Data from the Polar 5 aircraft during PAMARCMiP'
+      driver: yaml_file_cat
+      metadata: {}
+
+  AFLUX:
+
+    P5:
+      args:
+        path: "{{CATALOG_DIR}}/AFLUX/P5/main.yaml"
+      description: 'Data from the Polar 5 aircraft during AFLUX'
+      driver: yaml_file_cat
+      metadata: {}
+
+  MOSAiC-ACA:
+
+    P5:
+      args:
+        path: "{{CATALOG_DIR}}/MOSAiC-ACA/P5/main.yaml"
+      description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
+      driver: yaml_file_cat
+      metadata: {}
+
+  # ACLOUD:
+
+  #   P5:
+  #     args:
+  #       path: "{{CATALOG_DIR}}/ACLOUD/P5/main.yaml"
+  #     description: 'Data from the Polar 5 aircraft during ACLOUD'
+  #     driver: yaml_file_cat
+  #     metadata: {}
+
+  #   P6:
+  #     args:
+  #       path: "{{CATALOG_DIR}}/ACLOUD/P6/main.yaml"
+  #     description: 'Data from the Polar 6 aircraft during ACLOUD'
+  #     driver: yaml_file_cat
+  #     metadata: {}
+
+  #   Polarstern:
+  #     args:
+  #       path: "{{CATALOG_DIR}}/ACLOUD/Polarstern/main.yaml"
+  #     description: 'Data from the research vessel Polarstern during PASCAL/ACLOUD'
+  #     driver: yaml_file_cat
+  #     metadata: {}
+
+  # PAMARCMiP:
+
+  #   P5:
+  #     args:
+  #       path: "{{CATALOG_DIR}}/PAMARCMiP/P5/main.yaml"
+  #     description: 'Data from the Polar 5 aircraft during PAMARCMiP'
+  #     driver: yaml_file_cat
+  #     metadata: {}
+
+  # AFLUX:
+
+  #   P5:
+  #     args:
+  #       path: "{{CATALOG_DIR}}/AFLUX/P5/main.yaml"
+  #     description: 'Data from the Polar 5 aircraft during AFLUX'
+  #     driver: yaml_file_cat
+  #     metadata: {}
+
+  # MOSAiC-ACA:
+
+  #   P5:
+  #     args:
+  #       path: "{{CATALOG_DIR}}/MOSAiC-ACA/P5/main.yaml"
+  #     description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
+  #     driver: yaml_file_cat
+  #     metadata: {}

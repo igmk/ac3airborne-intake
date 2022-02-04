@@ -1,0 +1,93 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  MOSAiC-ACA_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200831b_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200902a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200904a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200907a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200908a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200910a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200911a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  MOSAiC-ACA_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933849/files/NIKON_radiance_P5_20200913a_{{ hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str

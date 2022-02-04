@@ -1,0 +1,203 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  ACLOUD_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170525_{{ hour }}UTC_Flight_05.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170527_{{ hour }}UTC_Flight_06.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170527_{{ hour }}UTC_Flight_07.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170529_{{ hour }}UTC_Flight_08.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170531_{{ hour }}UTC_Flight_10.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170602_{{ hour }}UTC_Flight_11.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170605_{{ hour }}UTC_Flight_13.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170608_{{ hour }}UTC_Flight_14.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170609_{{ hour }}UTC_Flight_15.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170613_{{ hour }}UTC_Flight_16.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF17:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170614_{{ hour }}UTC_Flight_17.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF18:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170616_{{ hour }}UTC_Flight_18.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF19:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170617_{{ hour }}UTC_Flight_19.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF20:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170618_{{ hour }}UTC_Flight_20.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF21:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170620_{{ hour }}UTC_Flight_21.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF22:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170623_{{ hour }}UTC_Flight_22.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF23:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170625_{{ hour }}UTC_Flight_23.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str
+
+  ACLOUD_P5_RF25:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_rad-fields/Canon_radiance_P5_170626_{{ hour }}UTC_Flight_25.nc
+      xarray_kwargs:
+        decode_times: False
+    parameters:
+      hour:
+        description: 'hour of day (hh, UTC)'
+        type: str

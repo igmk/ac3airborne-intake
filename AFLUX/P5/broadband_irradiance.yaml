@@ -1,0 +1,61 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+
+  AFLUX_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190319_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190321_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190323_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190324_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190325_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190330_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190331_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190401_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190403_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190404_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190406_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190407_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190408_Airborne_Broadband_Irradiance.nc
+  AFLUX_P5_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/932020/files/AFLUX_20190411_Airborne_Broadband_Irradiance.nc
