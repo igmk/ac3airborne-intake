@@ -2,6 +2,7 @@ plugins:
   source:
     - module: intake_xarray
 
+sources:
   AFLUX_P5_RF03:
     driver: netcdf
     args:
