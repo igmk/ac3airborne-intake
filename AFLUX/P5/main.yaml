@@ -87,3 +87,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  EAGLE:
+    args:
+      path: "{{CATALOG_DIR}}/eagle.yaml"
+    description: 'Hyperspectral fields of visible and near infrared cloud top radiance observed by AISA Eagle'
+    driver: yaml_file_cat
+    metadata: {}
