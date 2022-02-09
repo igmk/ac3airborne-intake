@@ -22,7 +22,7 @@ sources:
 
     HALO:
       args:
-        path: "{{CATALOG_DIR}}/Polarstern/main.yaml"
+        path: "{{CATALOG_DIR}}/HALO/main.yaml"
       description: 'Data from the HALO aircraft during HALO-AC3'
       driver: yaml_file_cat
       metadata: {}
