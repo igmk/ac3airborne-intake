@@ -5,3 +5,24 @@ plugins:
     - module: intake_xarray
 
 sources:
+
+    P5:
+      args:
+        path: "{{CATALOG_DIR}}/P5/main.yaml"
+      description: 'Data from the Polar 5 aircraft during HALO-AC3'
+      driver: yaml_file_cat
+      metadata: {}
+
+    P6:
+      args:
+        path: "{{CATALOG_DIR}}/P6/main.yaml"
+      description: 'Data from the Polar 6 aircraft during HALO-AC3'
+      driver: yaml_file_cat
+      metadata: {}
+
+    HALO:
+      args:
+        path: "{{CATALOG_DIR}}/HALO/main.yaml"
+      description: 'Data from the HALO aircraft during HALO-AC3'
+      driver: yaml_file_cat
+      metadata: {}
