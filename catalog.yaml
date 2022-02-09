@@ -17,7 +17,7 @@ sources:
   PAMARCMiP:
       args:
         path: "{{CATALOG_DIR}}/PAMARCMiP/main.yaml"
-      description: 'Data from the Polar 5 aircraft during PAMARCMiP'
+      description: 'Data from the Polar 6 aircraft during PAMARCMiP'
       driver: yaml_file_cat
       metadata: {}
 
@@ -32,5 +32,12 @@ sources:
       args:
         path: "{{CATALOG_DIR}}/MOSAiC-ACA/main.yaml"
       description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
+      driver: yaml_file_cat
+      metadata: {}
+
+  HALO-AC3:
+      args:
+        path: "{{CATALOG_DIR}}/HALO-AC3/main.yaml"
+      description: 'Data from the HALO-AC3 campaign'
       driver: yaml_file_cat
       metadata: {}
