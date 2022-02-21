@@ -1,0 +1,10 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  HALO-AC3_HALO_RF00:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/gps_ins/gps_ins_HALO-AC3_halo_20220221_RF00.nc
