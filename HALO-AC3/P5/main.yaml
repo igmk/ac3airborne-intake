@@ -2,7 +2,7 @@ plugins:
    source:
      - module: intake_xarray
 
-# sources:
+sources: None
 
 #   GPS_INS:
 #       args:
