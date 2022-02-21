@@ -1,10 +1,10 @@
 plugins:
-   source:
-     - module: intake_xarray
+  source:
+    - module: intake_xarray
 
 sources:
 
-GPS_INS:
+  GPS_INS:
     args:
       path: "{{CATALOG_DIR}}/gps_ins.yaml"
     description: 'Aircraft position and attitude data'
