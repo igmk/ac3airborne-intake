@@ -32,3 +32,10 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  HAMP_MIRA:
+    args:
+      path: "{{CATALOG_DIR}}/hamp_mira.yaml"
+    description: 'Data from the HAMP-MIRA radar'
+    driver: yaml_file_cat
+    metadata: {}
+
