@@ -10,3 +10,25 @@ sources:
     description: 'Aircraft position and attitude data'
     driver: yaml_file_cat
     metadata: {}
+
+  HAMP_KV:
+    args:
+      path: "{{CATALOG_DIR}}/hamp_kv.yaml"
+    description: 'Data from the HAMP module HAMP-KV'
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMP_11990:
+    args:
+      path: "{{CATALOG_DIR}}/hamp_11990.yaml"
+    description: 'Data from the HAMP module HAMP-11990'
+    driver: yaml_file_cat
+    metadata: {}
+
+  HAMP_183:
+    args:
+      path: "{{CATALOG_DIR}}/hamp_183.yaml"
+    description: 'Data from the HAMP module HAMP-183'
+    driver: yaml_file_cat
+    metadata: {}
+
