@@ -31,6 +31,15 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  CVI_PSAP_CPC_UHSAS:
+    args:
+      path: "{{CATALOG_DIR}}/cvi_psap_cpc_uhsas.yaml"
+    description: 'CVI inlet and PSAP, CPC and UHSAS In-situ arctic cloud particle properties'
+    driver: yaml_file_cat
+    metadata: {}
+  
+  
+  
   # specMACS:
   #   args:
   #     path: "{{CATALOG_DIR}}/specmacs/main.yaml"
