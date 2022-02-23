@@ -1,6 +1,0 @@
-# file prepared with for i in `find ac3/acloud -name "*.nc"`; do echo "  ACLOUD_P6_RF:";echo "    driver: netcdf";echo "    args:";echo "      urlpath: https://atmos.meteo.uni-koeln.de/$i";echo "";done
-plugins:
-  source:
-    - module: intake_xarray
-
-sources:
