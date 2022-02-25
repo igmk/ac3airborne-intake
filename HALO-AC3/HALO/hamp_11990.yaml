@@ -4,7 +4,13 @@ plugins:
 
 sources:
 
+  HALO-AC3_HALO_EF00:
+    driver: netcdf
+    args:
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/hamp_11990/hamp_11990_HALO-AC3_FD00_HALO_EF00_20220221.nc
+
   HALO-AC3_HALO_RF00:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/hamp_11990/hamp_11990_HALO-AC3_halo_20220221_RF00.nc
+      urlpath: https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/hamp_11990/hamp_11990_HALO-AC3_FD00_HALO_RF00_20220225.nc
+
