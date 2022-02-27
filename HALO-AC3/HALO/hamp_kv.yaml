@@ -12,7 +12,7 @@ sources:
   HALO-AC3_HALO_RF00:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/dav/files/mmech/halo-ac3/halo/hamp_kv/hamp_kv_HALO-AC3_FD00_HALO_RF00_20220225.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/dav/files/mario.mech/halo-ac3/halo/hamp_kv/hamp_kv_HALO-AC3_FD00_HALO_RF00_20220225.nc
     parameters:
       user:
         type: str
