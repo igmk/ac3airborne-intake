@@ -17,7 +17,7 @@ sources:
   PAMARCMiP:
       args:
         path: "{{CATALOG_DIR}}/PAMARCMiP/main.yaml"
-      description: 'Data from the Polar 5 aircraft during PAMARCMiP'
+      description: 'Data from the Polar 6 aircraft during PAMARCMiP'
       driver: yaml_file_cat
       metadata: {}
 
