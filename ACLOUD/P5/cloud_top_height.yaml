@@ -1,12 +1,11 @@
 metadata:
   parameters:
-    parameters:
-      user:
-        type: str
-        description: user name for ac3 cloud
-      password:
-        type: str
-        description: password for ac3 cloud
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
 
 plugins:
   source:
