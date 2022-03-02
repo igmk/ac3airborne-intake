@@ -52,6 +52,14 @@ sources:
     driver: yaml_file_cat
     metadata: {}   
 
+  CO_CO2_H2O:
+    args:
+      path: "{{CATALOG_DIR}}/co_co2_h2o.yaml"
+    description: 'In-situ measurements of CO, CO2, H2O and O3'
+    driver: yaml_file_cat
+    metadata: {}  
+
+
   # specMACS:
   #   args:
   #     path: "{{CATALOG_DIR}}/specmacs/main.yaml"
