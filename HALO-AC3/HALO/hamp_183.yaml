@@ -1,4 +1,5 @@
 metadata:
+  driver: netcdf
   parameters:
     user:
       type: str
@@ -14,12 +15,6 @@ plugins:
 sources:
 
   HALO-AC3_HALO_RF00:
-    driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_183/hamp_183_HALO-AC3_20220221_HALO_RF00.nc
-
-  HALO-AC3_HALO_RF01:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_183/hamp_183_HALO-AC3_20220225_HALO_RF01.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_183/hamp_183_HALO-AC3_20220225_HALO_RF00.nc
 
