@@ -1,13 +1,12 @@
 # file prepared with  a='cas';for i in `find aflux/p5/ -name "$a*.nc"`; do echo "  "$a"_AFLUX_P5_RF${i: -5:2}:";echo "    driver: netcdf";echo "    args:";echo "      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/$i";echo "";done
 metadata:
   parameters:
-    parameters:
-      user:
-        type: str
-        description: user name for ac3 cloud
-      password:
-        type: str
-        description: password for ac3 cloud
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
 
 plugins:
   source:

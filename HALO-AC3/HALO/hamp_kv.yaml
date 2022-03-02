@@ -1,3 +1,12 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+  
 plugins:
   source:
     - module: intake_xarray
@@ -8,22 +17,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/hamp_kv_HALO-AC3_20220221_HALO_RF00.nc
-    parameters:
-      user:
-        type: str
-        description: user name for ac3 cloud
-      password:
-        type: str
-        description: password for ac3 cloud
 
   HALO-AC3_HALO_RF01:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/hamp_kv_HALO-AC3_20220225_HALO_RF01.nc
-    parameters:
-      user:
-        type: str
-        description: user name for ac3 cloud
-      password:
-        type: str
-        description: password for ac3 cloud
