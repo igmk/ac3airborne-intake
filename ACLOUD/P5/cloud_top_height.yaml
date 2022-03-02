@@ -1,3 +1,12 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
 plugins:
   source:
     - module: intake_xarray
@@ -7,69 +16,69 @@ sources:
   ACLOUD_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170523_RF04.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170523_RF04.nc
 
   ACLOUD_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170525_RF05.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170525_RF05.nc
 
   ACLOUD_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170527_RF06.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170527_RF06.nc
 
   ACLOUD_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170527_RF07.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170527_RF07.nc
 
   ACLOUD_P5_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170529_RF08.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170529_RF08.nc
 
   ACLOUD_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170602_RF11.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170602_RF11.nc
 
   ACLOUD_P5_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170605_RF13.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170605_RF13.nc
 
   ACLOUD_P5_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170608_RF14.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170608_RF14.nc
 
   ACLOUD_P5_RF16:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170613_RF16.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170613_RF16.nc
 
   ACLOUD_P5_RF17:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170614_RF17.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170614_RF17.nc
 
   ACLOUD_P5_RF18:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170616_RF18.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170616_RF18.nc
 
   ACLOUD_P5_RF20:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170618_RF20.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170618_RF20.nc
 
   ACLOUD_P5_RF21:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170620_RF21.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170620_RF21.nc
 
   ACLOUD_P5_RF23:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170625_RF23.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/cloud_top_height/cloud_top_height_ACLOUD_polar5_20170625_RF23.nc
