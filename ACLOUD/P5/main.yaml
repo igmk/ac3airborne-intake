@@ -31,6 +31,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  MiRAC-A_LWP:
+    args:
+      path: "{{CATALOG_DIR}}/mirac-a_lwp.yaml"
+    description: 'LWP derived from the passive channel of MiRAC-A'
+    driver: yaml_file_cat
+    metadata: {}
+
   MiRAC-P:
     args:
       path: "{{CATALOG_DIR}}/mirac-p.yaml"
