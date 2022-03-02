@@ -38,7 +38,14 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-    
+  ALABAMA:
+    args:
+      path: "{{CATALOG_DIR}}/alabama.yaml"
+    description: 'Particle size and chemical composition for individual aerosol particles'
+    driver: yaml_file_cat
+    metadata: {}    
+  
+  
   # specMACS:
   #   args:
   #     path: "{{CATALOG_DIR}}/specmacs/main.yaml"
