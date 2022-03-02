@@ -45,7 +45,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}    
   
-  
+  OPC:
+    args:
+      path: "{{CATALOG_DIR}}/opc.yaml"
+    description: 'In-situ measurements of particle number concentration and size distribution using an optical particle counter'
+    driver: yaml_file_cat
+    metadata: {}   
+
   # specMACS:
   #   args:
   #     path: "{{CATALOG_DIR}}/specmacs/main.yaml"
