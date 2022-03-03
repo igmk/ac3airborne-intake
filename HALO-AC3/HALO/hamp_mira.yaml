@@ -16,5 +16,5 @@ sources:
   HALO-AC3_HALO_RF00:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_mira/hamp_mira_HALO-AC3_20220225_HALO_RF00.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_mira/HALO-AC3_HALO_hamp_mira_20220225_RF00.nc
 
