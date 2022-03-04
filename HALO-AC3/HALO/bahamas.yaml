@@ -1,0 +1,19 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  HALO-AC3_HALO_RF00:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220225_HALO_RF00/BAHAMAS-QL_basic-data_HALO_20220225_RF00.nc

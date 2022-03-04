@@ -4,10 +4,24 @@ plugins:
 
 sources:
 
+  BAHAMAS:
+    args:
+      path: "{{CATALOG_DIR}}/bahamas.yaml"
+    description: 'Aircraft basic position and attitude data'
+    driver: yaml_file_cat
+    metadata: {}
+
+  BACARDI:
+    args:
+      path: "{{CATALOG_DIR}}/bacardi.yaml"
+    description: 'Aircraft broadband radiation data'
+    driver: yaml_file_cat
+    metadata: {}
+
   GPS_INS:
     args:
       path: "{{CATALOG_DIR}}/gps_ins.yaml"
-    description: 'Aircraft position and attitude data'
+    description: 'Aircraft position and attitude data as recorded by HALO-SMART'
     driver: yaml_file_cat
     metadata: {}
 
