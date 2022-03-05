@@ -22,7 +22,7 @@ sources:
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF11_20170602_liquid_water_path.nc  
 
-  ACLOUD_P5_RF04:
+  ACLOUD_P5_RF14:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF14_20170608_liquid_water_path.nc
