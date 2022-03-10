@@ -1,15 +1,4 @@
-# file prepared with  a='cas';for i in `find aflux/p5/ -name "$a*.nc"`; do echo "  "$a"_AFLUX_P5_RF${i: -5:2}:";echo "    driver: netcdf";echo "    args:";echo "      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/$i";echo "";done
-metadata:
-  parameters:
-    parameters:
-      user:
-        type: str
-        description: user name for ac3 cloud
-      password:
-        type: str
-        description: password for ac3 cloud
-
-plugins:
+lugins:
   source:
     - module: intake_xarray
 
@@ -18,67 +7,67 @@ sources:
   AFLUX_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190321_RF03.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190321_RF03.nc
 
   AFLUX_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190323_RF04.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190323_RF04.nc
 
   AFLUX_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190324_RF05.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190324_RF05.nc
 
   AFLUX_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190325_RF06.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190325_RF06.nc
 
   AFLUX_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190330_RF07.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190330_RF07.nc
 
   AFLUX_P5_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190331_RF08.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190331_RF08.nc
 
   AFLUX_P5_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190401_RF09.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190401_RF09.nc
 
   AFLUX_P5_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190403_RF10.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190403_RF10.nc
 
   AFLUX_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190404_RF11.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190404_RF11.nc
 
   AFLUX_P5_RF12:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190406_RF12.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190406_RF12.nc
 
   AFLUX_P5_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190407_RF13.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190407_RF13.nc
 
   AFLUX_P5_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190408_RF14.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190408_RF14.nc
 
   AFLUX_P5_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/pms/cas_AFLUX_polar5_20190411_RF15.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/940564/files/cas_AFLUX_polar5_20190411_RF15.nc
 
 
 
