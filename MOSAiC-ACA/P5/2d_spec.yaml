@@ -1,0 +1,41 @@
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  MOSAiC-ACA_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight05_20200902_created210922.nc
+
+  MOSAiC-ACA_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight06_20200904_created210922.nc
+
+  MOSAiC-ACA_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight07_20200907_created210922.nc
+
+  MOSAiC-ACA_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight08_20200908_created210922.nc
+
+  MOSAiC-ACA_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight09_20200910_created210922.nc
+
+  MOSAiC-ACA_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight10_20200911_created210922.nc
+
+  MOSAiC-ACA_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/941538/files/LaMP_MOSAIC-ACA_flight11_20200913_created210922.nc

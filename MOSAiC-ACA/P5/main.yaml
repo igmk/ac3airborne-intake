@@ -87,3 +87,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  2D_SPEC":
+    args:
+      path: "{{CATALOG_DIR}}/2d_spec.yaml"
+    description: '2D stereoscopic probes'
+    driver: yaml_file_cat
+    metadata: {}
