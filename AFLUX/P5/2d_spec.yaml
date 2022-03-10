@@ -10,7 +10,7 @@ sources:
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight02_20190319_created210922.nc
 
-  MOSAiC-ACA_P5_RF03:
+  AFLUX_P5_RF03:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight03_20190321_created210922.nc
