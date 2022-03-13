@@ -32,12 +32,12 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  GOPRO:
-    args:
-      path: "{{CATALOG_DIR}}/gopro.yaml"
-    description: 'Gopro videos of the view to the right'
-    driver: yaml_file_cat
-    metadata: {}
+  # GOPRO:
+  #   args:
+  #     path: "{{CATALOG_DIR}}/gopro.yaml"
+  #   description: 'Gopro videos of the view to the right'
+  #   driver: yaml_file_cat
+  #   metadata: {}
 
   HAMP_KV:
     args:
