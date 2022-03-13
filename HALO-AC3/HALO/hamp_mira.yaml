@@ -18,3 +18,14 @@ sources:
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_mira/HALO-AC3_HALO_hamp_mira_20220225_RF00.nc
 
+  HALO-AC3_HALO_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_mira/HALO-AC3_HALO_hamp_mira_20220311_RF01_prelim.nc
+
+  HALO-AC3_HALO_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_mira/HALO-AC3_HALO_hamp_mira_20220312_RF02_prelim.nc
+
+

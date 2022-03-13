@@ -1,0 +1,20 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  HALO-AC3_HALO_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220312_RF02/HALO-AC3_HALO_Dropsondes_quickgrid_20220312.nc
+

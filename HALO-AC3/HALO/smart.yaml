@@ -1,0 +1,31 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  HALO-AC3_HALO_RF00:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220311_RF01.nc
+
+  HALO-AC3_HALO_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220311_RF01.nc
+
+  HALO-AC3_HALO_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220312_RF02.nc
+
+

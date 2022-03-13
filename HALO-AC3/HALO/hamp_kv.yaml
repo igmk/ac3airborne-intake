@@ -17,3 +17,18 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/HALO-AC3_HALO_hamp_kv_20220225_RF00.nc
+
+  HALO-AC3_HALO_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/HALO-AC3_HALO_hamp_kv_20220311_RF01.nc
+
+  HALO-AC3_HALO_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/HALO-AC3_HALO_hamp_kv_20220312_RF02.nc
+
+  HALO-AC3_HALO_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/HALO-AC3_HALO_hamp_kv_20220313_RF03.nc

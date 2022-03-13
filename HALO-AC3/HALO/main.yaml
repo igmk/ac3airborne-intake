@@ -18,10 +18,24 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  DROPSONDES:
+    args:
+      path: "{{CATALOG_DIR}}/dropsondes.yaml"
+    description: 'Dropsonde data'
+    driver: yaml_file_cat
+    metadata: {}
+
   GPS_INS:
     args:
       path: "{{CATALOG_DIR}}/gps_ins.yaml"
     description: 'Aircraft position and attitude data as recorded by HALO-SMART'
+    driver: yaml_file_cat
+    metadata: {}
+
+  GOPRO:
+    args:
+      path: "{{CATALOG_DIR}}/gopro.yaml"
+    description: 'Gopro videos of the view to the right'
     driver: yaml_file_cat
     metadata: {}
 
@@ -50,6 +64,13 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/hamp_mira.yaml"
     description: 'Data from the HAMP-MIRA radar'
+    driver: yaml_file_cat
+    metadata: {}
+
+  SMART:
+    args:
+      path: "{{CATALOG_DIR}}/smart.yaml"
+    description: 'Data from the SMART radiometers'
     driver: yaml_file_cat
     metadata: {}
 
