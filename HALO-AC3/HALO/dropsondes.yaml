@@ -22,3 +22,13 @@ sources:
       time:
         description: 'Time of dropsondes'
         type: str
+
+  HALO-AC3_HALO_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220313_RF03/Level_1/D20220313_{{time}}QC.nc
+    description: '083554,083835,084601,090654,091510,091651,092933,101920,104412,105915,112729,114822,115824,142050,142748,143420,145844,150803,151717,152828,153946,155009,160159,161137,162143'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str
