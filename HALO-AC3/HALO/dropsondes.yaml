@@ -16,5 +16,8 @@ sources:
   HALO-AC3_HALO_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220312_RF02/HALO-AC3_HALO_Dropsondes_quickgrid_20220312.nc
-
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220312_RF02/Level_1/D20220312_{{time}}QC.nc
+    parameters:
+      time:
+        description: '092701,093632,100305,101738,103816,110128,111204,113142,114351,123208,125322,130528,141002,142704,144427,150142,151100,151841,153442,154231'
+        type: str
