@@ -27,3 +27,18 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220312_HALO_RF02/QL_HALO-AC3_HALO_BAHAMAS_20220312_RF02_v1.nc
+
+  HALO-AC3_HALO_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220313_HALO_RF03/QL_HALO-AC3_HALO_BAHAMAS_20220313_RF03_v1.nc
+
+  HALO-AC3_HALO_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220314_HALO_RF04/QL_HALO-AC3_HALO_BAHAMAS_20220314_RF04_v1.nc
+
+  HALO-AC3_HALO_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220315_HALO_RF05/QL_HALO-AC3_HALO_BAHAMAS_20220315_RF05_v1.nc
