@@ -43,3 +43,8 @@ sources:
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/gps_ins/HALO-AC3_HALO_gps_ins_20220315_RF05.nc
 
+  HALO-AC3_HALO_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/gps_ins/HALO-AC3_HALO_gps_ins_20220316_RF06.nc
+
