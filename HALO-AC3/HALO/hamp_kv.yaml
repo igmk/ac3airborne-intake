@@ -42,3 +42,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/HALO-AC3_HALO_hamp_kv_20220315_RF05.nc
+
+  HALO-AC3_HALO_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_kv/HALO-AC3_HALO_hamp_KV_20220316_RF06.nc
