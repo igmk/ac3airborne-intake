@@ -47,9 +47,18 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220315_RF05/Level_1/D20220315_{{time}}QC.nc
-    description: '101922,10,2834,103437,104146,104906,105548,110330,115230,120506,122835,123630,124008,124347,140049,141144,143402,144056,144759,145430,150107,150557,151319,160945,162253,164407'
+    description: '101922,102834,103437,104146,104906,105548,110330,115230,120506,122835,123630,124008,124347,140049,141144,143402,144056,144759,145430,150107,150557,151319,160945,162253,164407'
     parameters:
       time:
         description: 'Time of dropsondes'
         type: str
 
+  HALO-AC3_HALO_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220316_RF06/Level_1/D20220316_{{time}}QC.nc
+    description: '105616,104657,111400,110336,112836,112126,115159,113918,121300,123512,122112,124852,124123,132231,131156,134806,133313,140717,135822,141620,144647,142728,172212'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str
