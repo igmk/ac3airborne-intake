@@ -16,4 +16,4 @@ sources:
   HALO-AC3_P5_RF01:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/gps_ins/HALO-AC3_polar5_gps_ins_20220320_RF01.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220320_RF01.nc
