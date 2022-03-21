@@ -2,14 +2,14 @@ plugins:
    source:
      - module: intake_xarray
 
-sources: None
+sources:
 
-#   GPS_INS:
-#       args:
-#         path: "{{CATALOG_DIR}}/gps_ins.yaml"
-#       description: 'Aircraft position and attitude data'
-#       driver: yaml_file_cat
-#       metadata: {}
+   GPS_INS:
+       args:
+         path: "{{CATALOG_DIR}}/gps_ins.yaml"
+       description: 'Aircraft position and attitude data'
+       driver: yaml_file_cat
+       metadata: {}
 
 #   AMSR2_SIC:
 #     args:
