@@ -46,4 +46,9 @@ sources:
   HALO-AC3_HALO_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220316_HALO_RF06/Radiometer-Data/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220316_RF06_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_20220316_HALO_RF06/Radiometer-Data/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220316_RF06_v1.nc
+
+  HALO-AC3_HALO_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_20220317_HALO_RF07/Radiometer-Data/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220317_RF07_v1.nc
