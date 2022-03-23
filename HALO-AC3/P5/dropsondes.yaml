@@ -1,0 +1,24 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  HALO-AC3_P5_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220320_RF01/Level_1/D20220320_{{time}}QC.nc
+    description: '120455,121608,123012,123926,132336,133500,135450,140748,143239,144339,145650,150618'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str
