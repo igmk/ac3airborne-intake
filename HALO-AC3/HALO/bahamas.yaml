@@ -16,39 +16,44 @@ sources:
   HALO-AC3_HALO_RF00:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220225_HALO_RF00/BAHAMAS-QL_basic-data_HALO_20220225_RF00.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220225_RF00/BAHAMAS-QL_basic-data_HALO_20220225_RF00.nc
 
   HALO-AC3_HALO_RF01:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220311_HALO_RF01/QL_HALO-AC3_HALO_BAHAMAS_20220311_RF01_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220311_RF01/QL_HALO-AC3_HALO_BAHAMAS_20220311_RF01_v1.nc
 
   HALO-AC3_HALO_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220312_HALO_RF02/QL_HALO-AC3_HALO_BAHAMAS_20220312_RF02_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220312_RF02/QL_HALO-AC3_HALO_BAHAMAS_20220312_RF02_v1.nc
 
   HALO-AC3_HALO_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220313_HALO_RF03/QL_HALO-AC3_HALO_BAHAMAS_20220313_RF03_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220313_RF03/QL_HALO-AC3_HALO_BAHAMAS_20220313_RF03_v1.nc
 
   HALO-AC3_HALO_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220314_HALO_RF04/QL_HALO-AC3_HALO_BAHAMAS_20220314_RF04_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220314_RF04/QL_HALO-AC3_HALO_BAHAMAS_20220314_RF04_v1.nc
 
   HALO-AC3_HALO_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220315_HALO_RF05/QL_HALO-AC3_HALO_BAHAMAS_20220315_RF05_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220315_RF05/QL_HALO-AC3_HALO_BAHAMAS_20220315_RF05_v1.nc
 
   HALO-AC3_HALO_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220316_HALO_RF06/QL_HALO-AC3_HALO_BAHAMAS_20220316_RF06_v1.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220316_RF06/QL_HALO-AC3_HALO_BAHAMAS_20220316_RF06_v1.nc
       
   HALO-AC3_HALO_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_20220320_HALO_RF07/QL_HALO-AC3_HALO_BAHAMAS_20220320_RF07_v1.nc      
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220320_RF07/QL_HALO-AC3_HALO_BAHAMAS_20220320_RF07_v1.nc      
+
+  HALO-AC3_HALO_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220321_RF08/QL_HALO-AC3_HALO_BAHAMAS_20220321_RF08_v1.nc      
