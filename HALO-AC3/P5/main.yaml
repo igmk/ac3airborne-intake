@@ -11,6 +11,13 @@ sources:
        driver: yaml_file_cat
        metadata: {}
 
+   MiRAC-A:
+     args:
+       path: "{{CATALOG_DIR}}/mirac-a.yaml"
+     description: 'MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data'
+     driver: yaml_file_cat
+     metadata: {}
+
 #   AMSR2_SIC:
 #     args:
 #       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
@@ -22,13 +29,6 @@ sources:
 #     args:
 #       path: "{{CATALOG_DIR}}/cloud_top_height.yaml"
 #     description: 'Cloud top height product derived from AMALi'
-#     driver: yaml_file_cat
-#     metadata: {}
-
-#   MiRAC-A:
-#     args:
-#       path: "{{CATALOG_DIR}}/mirac-a.yaml"
-#     description: 'MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data'
 #     driver: yaml_file_cat
 #     metadata: {}
 
