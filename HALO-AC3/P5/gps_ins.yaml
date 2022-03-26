@@ -21,14 +21,14 @@ sources:
   HALO-AC3_P5_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/SMART-IMAR/Polar5_20220322.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/gps_ins/HALO-AC3_polar5_gps_ins_20220322_RF02.nc
 
   HALO-AC3_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/SMART-IMAR/Polar5_20220322.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/gps_ins/HALO-AC3_polar5_gps_ins_20220322_RF03.nc
 
   HALO-AC3_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/SMART-IMAR/Polar5_20220325.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/gps_ins/HALO-AC3_polar5_gps_ins_20220325_RF04.nc
