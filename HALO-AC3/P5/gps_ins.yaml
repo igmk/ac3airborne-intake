@@ -26,4 +26,9 @@ sources:
   HALO-AC3_P5_RF03:
     driver: netcdf
     args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/SMART-IMAR/Polar5_20220322.nc
+
+  HALO-AC3_P5_RF04:
+    driver: netcdf
+    args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/SMART-IMAR/Polar5_20220325.nc
