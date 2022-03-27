@@ -25,6 +25,13 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
+  DROPSONDES_GRIDDED:
+    args:
+      path: "{{CATALOG_DIR}}/dropsondes_gridded.yaml"
+    description: 'Gridded dropsonde data'
+    driver: yaml_file_cat
+    metadata: { }
+
   GPS_INS:
     args:
       path: "{{CATALOG_DIR}}/gps_ins.yaml"
