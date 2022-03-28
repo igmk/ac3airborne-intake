@@ -1,0 +1,38 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
+plugins:
+  source:
+    - module: intake_xarray
+   
+sources:
+  HALO-AC3_P5_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/broadband/HALO-AC3_P5_BBR_20220320_RF01.nc 
+      xarray_kwargs:
+        group: P5
+  HALO-AC3_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/broadband/HALO-AC3_P5_BBR_20220322_RF02.nc 
+      xarray_kwargs:
+        group: P5
+  HALO-AC3_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/broadband/HALO-AC3_P5_BBR_20220322_RF03.nc 
+      xarray_kwargs:
+        group: P5                
+  HALO-AC3_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/broadband/HALO-AC3_P5_BBR_20220325_RF04.nc 
+      xarray_kwargs:
+        group: P5

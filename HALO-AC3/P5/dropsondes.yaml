@@ -22,3 +22,24 @@ sources:
       time:
         description: 'Time of dropsondes'
         type: str
+        
+  HALO-AC3_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220322_RF03/Level_1/D20220322_{{time}}QC.nc
+    description: 
+'133744,134847,135651,140524,141351,142212,143217,144108,145421,151740'    
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str
+        
+  HALO-AC3_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220325_RF04/Level_1/D20220325_{{time}}QC.nc
+    description: '121330,122424,123301,151920,152736'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str                

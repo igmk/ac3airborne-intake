@@ -27,3 +27,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220322_RF03.nc
+      
+  HALO-AC3_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220325_RF04.nc      
