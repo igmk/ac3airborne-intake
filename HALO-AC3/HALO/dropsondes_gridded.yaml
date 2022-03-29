@@ -1,0 +1,49 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  HALO-AC3_HALO_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220312_RF02/HALO-AC3_HALO_Dropsondes_quickgrid_20220312.nc
+
+  HALO-AC3_HALO_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220313_RF03/HALO-AC3_HALO_Dropsondes_quickgrid_20220313.nc
+
+  HALO-AC3_HALO_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220314_RF04/HALO-AC3_HALO_Dropsondes_quickgrid_20220314.nc
+
+  HALO-AC3_HALO_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220315_RF05/HALO-AC3_HALO_Dropsondes_quickgrid_20220315.nc
+
+  HALO-AC3_HALO_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220316_RF06/HALO-AC3_HALO_Dropsondes_quickgrid_20220316.nc
+
+  HALO-AC3_HALO_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220320_RF07/HALO-AC3_HALO_Dropsondes_quickgrid_20220320.nc
+
+  HALO-AC3_HALO_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220321_RF08/HALO-AC3_HALO_Dropsondes_quickgrid_20220321.nc
