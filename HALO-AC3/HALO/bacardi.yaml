@@ -57,3 +57,13 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220321_RF08.nc
+      
+  HALO-AC3_HALO_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220328_RF09.nc
+      
+  HALO-AC3_HALO_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220329_RF10.nc            

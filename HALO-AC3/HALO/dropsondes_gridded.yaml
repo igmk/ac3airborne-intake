@@ -47,3 +47,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220321_RF08/HALO-AC3_HALO_Dropsondes_quickgrid_20220321.nc
+      
+  HALO-AC3_HALO_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220328_RF09/HALO-AC3_HALO_Dropsondes_quickgrid_20220328.nc      

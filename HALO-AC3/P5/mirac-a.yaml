@@ -17,3 +17,28 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220320_RF01.nc
+
+  HALO-AC3_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220322_RF03.nc
+
+  HALO-AC3_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220325_RF04.nc
+
+  HALO-AC3_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220328_RF05.nc
+
+  HALO-AC3_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220329_RF07.nc
+
+  HALO-AC3_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220330_RF08.nc
