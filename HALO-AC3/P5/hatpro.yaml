@@ -31,7 +31,6 @@ sources:
   HALO-AC3_P5_RF04:
     driver: netcdf
     args:
-<<<<<<< HEAD
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220325_RF04.nc      
 
   HALO-AC3_P5_RF05:
@@ -61,32 +60,3 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220401_RF09.nc      
-
-=======
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220325_RF04.nc     
-      
-  HALO-AC3_P5_RF05:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220328_RF05.nc    
-      
-  HALO-AC3_P5_RF06:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220329_RF06.nc    
-      
-  HALO-AC3_P5_RF07:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220329_RF07.nc    
-      
-  HALO-AC3_P5_RF08:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220330_RF08.nc    
-      
-  HALO-AC3_P5_RF09:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220401_RF09.nc    
->>>>>>> ee80a4dff5bd3422b193371e4793b2e8697d1c10
