@@ -71,4 +71,9 @@ sources:
   HALO-AC3_HALO_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_11990/HALO-AC3_HALO_hamp_11990_20220330_RF11.nc                       
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_11990/HALO-AC3_HALO_hamp_11990_20220330_RF11.nc          
+      
+  HALO-AC3_HALO_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/hamp_11990/HALO-AC3_HALO_hamp_11990_20220401_RF12.nc                     
