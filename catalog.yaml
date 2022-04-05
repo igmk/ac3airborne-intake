@@ -34,3 +34,10 @@ sources:
       description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
       driver: yaml_file_cat
       metadata: {}
+
+  HALO-AC3:
+      args:
+        path: "{{CATALOG_DIR}}/HALO-AC3/main.yaml"
+      description: 'Data from the HALO-AC3 campaign'
+      driver: yaml_file_cat
+      metadata: {}
