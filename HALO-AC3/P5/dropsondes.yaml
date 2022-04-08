@@ -56,7 +56,7 @@ sources:
   HALO-AC3_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220328_RF07/Level_1/D20220328_{{time}}QC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220329_RF07/Level_1/D20220329_{{time}}QC.nc
     description: '124117,124858,125647,130424,161634'
     parameters:
       time:
