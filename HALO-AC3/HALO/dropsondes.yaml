@@ -96,7 +96,7 @@ sources:
   HALO-AC3_HALO_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220329_RF10/Level_1/D20220328_{{time}}QC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220329_RF10/Level_1/D20220329_{{time}}QC.nc
     description: '083320,084920,090619,092643,094222,100520,103704,104340,105322,111925,113326,115037,120444,132359,134740,135441,135946,140443,141152'
     parameters:
       time:
