@@ -23,6 +23,16 @@ sources:
         description: 'Time of dropsondes'
         type: str
 
+  HALO-AC3_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220322_RF02/Level_1/D20220322_{{time}}QC.nc
+    description: '090404,091750'    
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str
+
   HALO-AC3_P5_RF03:
     driver: netcdf
     args:
@@ -36,7 +46,7 @@ sources:
   HALO-AC3_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220325_RF04/Level_1/D20220325_{{time}}_PQC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220325_RF04/Level_1/D20220325_{{time}}QC.nc
     description: '121330,122424,123301,151920,152736'
     parameters:
       time:
@@ -46,7 +56,7 @@ sources:
   HALO-AC3_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220328_RF05/Level_1/D20220328_{{time}}_PQC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220328_RF05/Level_1/D20220328_{{time}}QC.nc
     description: '130235,131446,132727,140758,142046,142934,143856,145040,150049,150806,152059,153444,154648,160809,161715'
     parameters:
       time:
@@ -78,6 +88,36 @@ sources:
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220401_RF09/Level_1/D20220401_{{time}}QC.nc
     description: '094058,100048,101609,103718,110218,111617,112846,114120,115534,120942,122112,124025,125326,130328,131556,132830,133533,134650'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str                
+
+  HALO-AC3_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220404_RF10/Level_1/D20220404_{{time}}QC.nc
+    description: '103224,104632,110706,112344,114834,120219,121629,122502,123543,125536,131409,132827,133827,135406'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str                
+
+  HALO-AC3_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220405_RF11/Level_1/D20220405_{{time}}QC.nc
+    description: '102541,103926,105440,110941,112716,113951,115222,120641,130215,131424'
+    parameters:
+      time:
+        description: 'Time of dropsondes'
+        type: str                
+
+  HALO-AC3_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220407_RF12/Level_1/D20220407_{{time}}QC.nc
+    description: '095652,100658,101820,102824,103819,105029,105746,110539,111630,112846,114233,115225,123225,124119,125034,125629,130306'
     parameters:
       time:
         description: 'Time of dropsondes'

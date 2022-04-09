@@ -67,3 +67,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220405_RF11.nc  
+      
+  HALO-AC3_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/hatpro/HALO-AC3_P5_HATPRO_20220407_RF12.nc  
