@@ -97,7 +97,7 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220404_RF10/Level_1/D20220404_{{time}}QC.nc
-    description: '103224,104632,110706,112344,114834,120219,121629,122502,123543,125536,131409,132827,133827,135406'
+    description: '103242,104632,110706,112344,114834,120219,121629,122502,123543,125536,131409,132827,133827,135406,'
     parameters:
       time:
         description: 'Time of dropsondes'
