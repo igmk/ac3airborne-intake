@@ -83,3 +83,7 @@ sources:
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220404_RF13/QL_HALO-AC3_HALO_BAHAMAS_20220404_RF13_v1.nc                                
 
+  HALO-AC3_HALO_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BAHAMAS/HALO-AC3_HALO_BAHAMAS_20220407_RF14/QL_HALO-AC3_HALO_BAHAMAS_20220407_RF14_v1.nc                                
