@@ -72,3 +72,38 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF11.nc               
+
+  HALO-AC3_HALO_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF12.nc               
+
+  HALO-AC3_HALO_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF13.nc               
+
+  HALO-AC3_HALO_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF14.nc               
+
+  HALO-AC3_HALO_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF15.nc               
+
+  HALO-AC3_HALO_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF16.nc               
+
+  HALO-AC3_HALO_RF17:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF17.nc               
+
+  HALO-AC3_HALO_RF18:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/BACARDI/HALO-AC3_HALO_BACARDI_BroadbandFluxes_20220330_RF18.nc               
