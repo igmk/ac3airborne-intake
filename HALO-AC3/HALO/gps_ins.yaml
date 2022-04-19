@@ -92,3 +92,18 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/gps_ins/HALO-AC3_HALO_gps_ins_20220408_RF15.nc        
+
+  HALO-AC3_HALO_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/gps_ins/HALO-AC3_HALO_gps_ins_20220410_RF16.nc        
+
+  HALO-AC3_HALO_RF17:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/gps_ins/HALO-AC3_HALO_gps_ins_20220411_RF17.nc        
+
+  HALO-AC3_HALO_RF18:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/gps_ins/HALO-AC3_HALO_gps_ins_20220412_RF18.nc        
