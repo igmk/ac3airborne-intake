@@ -62,3 +62,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220407_RF12.nc
+
+  HALO-AC3_P5_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/mirac_radar/HALO-AC3_P5_MiRAC_A_20220410_RF13.nc
