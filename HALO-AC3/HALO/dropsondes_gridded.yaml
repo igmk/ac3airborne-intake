@@ -57,3 +57,28 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220401_RF12/HALO-AC3_HALO_Dropsondes_quickgrid_20220401.nc         
+      
+  HALO-AC3_HALO_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220404_RF13/HALO-AC3_HALO_Dropsondes_quickgrid_20220404.nc               
+
+  HALO-AC3_HALO_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220408_RF15/HALO-AC3_HALO_Dropsondes_quickgrid_20220408.nc               
+
+  HALO-AC3_HALO_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220410_RF16/HALO-AC3_HALO_Dropsondes_quickgrid_20220410.nc               
+
+  HALO-AC3_HALO_RF17:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220411_RF17/HALO-AC3_HALO_Dropsondes_quickgrid_20220411.nc               
+
+  HALO-AC3_HALO_RF18:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/dropsondes/HALO-AC3_HALO_Dropsondes_20220412_RF18/HALO-AC3_HALO_Dropsondes_quickgrid_20220412.nc               
