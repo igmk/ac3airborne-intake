@@ -48,10 +48,20 @@ sources:
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170602_RF11.nc
 
+  ACLOUD_P5_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170608_RF14.nc
+
   ACLOUD_P5_RF15:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170609_RF15.nc
+
+  ACLOUD_P5_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170613_RF16.nc
 
   ACLOUD_P5_RF17:
     driver: netcdf
