@@ -1,3 +1,12 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+
 plugins:
   source:
     - module: intake_xarray
@@ -7,49 +16,49 @@ sources:
   MOSAiC-ACA_P5_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200830_RF02.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200830_RF02.nc
 
   MOSAiC-ACA_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200831_RF03.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200831_RF03.nc
 
   MOSAiC-ACA_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200831_RF04.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200831_RF04.nc
 
   MOSAiC-ACA_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200902_RF05.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200902_RF05.nc
 
   MOSAiC-ACA_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200904_RF06.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200904_RF06.nc
 
   MOSAiC-ACA_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200907_RF07.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200907_RF07.nc
 
   MOSAiC-ACA_P5_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200908_RF08.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200908_RF08.nc
 
   MOSAiC-ACA_P5_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200910_RF09.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200910_RF09.nc
 
   MOSAiC-ACA_P5_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200911_RF10.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200911_RF10.nc
 
   MOSAiC-ACA_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/mosaic-aca/p5/gps_ins/gps_ins_MOSAiC-ACA_polar5_20200913_RF11.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/gps_ins/MOSAiC-ACA_P5_GPS_INS_20200913_RF11.nc
