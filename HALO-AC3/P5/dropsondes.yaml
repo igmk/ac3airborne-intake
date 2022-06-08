@@ -123,7 +123,7 @@ sources:
         description: 'Time of dropsondes'
         type: str
 
-HALO-AC3_P5_RF13:
+  HALO-AC3_P5_RF13:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/dropsondes/HALO-AC3_P5_Dropsondes_20220410_RF13/Level_1/D20220410_{{time}}QC.nc
