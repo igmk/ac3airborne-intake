@@ -8,7 +8,7 @@ sources:
 
     P6:
       args:
-        path: "{{CATALOG_DIR}}/P6/main.yaml"
+        path: "{{CATALOG_DIR}}/P5/main.yaml"
       description: 'Data from the PAMARCMiP campaign'
       driver: yaml_file_cat
       metadata: {}
