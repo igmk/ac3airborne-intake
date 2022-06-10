@@ -1,99 +1,79 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   ACLOUD_P6_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170527_RF07.nc
-
   ACLOUD_P6_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170529_RF08.nc
-
   ACLOUD_P6_RF09:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170530_RF09.nc
-
   ACLOUD_P6_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170531_RF10.nc
-
   ACLOUD_P6_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170602_RF11.nc
-
   ACLOUD_P6_RF12:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170604_RF12.nc
-
   ACLOUD_P6_RF13:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170605_RF13.nc
-
   ACLOUD_P6_RF14:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170608_RF14.nc
-
   ACLOUD_P6_RF15:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170609_RF15.nc
-
   ACLOUD_P6_RF16:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170613_RF16.nc
-
   ACLOUD_P6_RF17:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170614_RF17.nc
-
   ACLOUD_P6_RF18:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170616_RF18.nc
-
   ACLOUD_P6_RF19:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170617_RF19.nc
-
   ACLOUD_P6_RF20:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170618_RF20.nc
-
   ACLOUD_P6_RF21:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170620_RF21.nc
-
   ACLOUD_P6_RF22:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170623_RF22.nc
-
   ACLOUD_P6_RF23:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170625_RF23.nc
-
   ACLOUD_P6_RF24:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/acloud/p6/gps_ins/ACLOUD_P6_GPS_INS_20170626_RF24.nc
-
   ACLOUD_P6_RF25:
     driver: netcdf
     args:

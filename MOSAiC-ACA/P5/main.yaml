@@ -1,95 +1,82 @@
 plugins:
-   source:
-     - module: intake_xarray
-
+  source:
+  - module: intake_xarray
 sources:
   GPS_INS:
     args:
-      path: "{{CATALOG_DIR}}/gps_ins.yaml"
-    description: 'Aircraft position and attitude data'
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data
     driver: yaml_file_cat
     metadata: {}
-
   AMSR2_SIC:
     args:
-      path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-    description: 'Sea ice concentration at aircraft position derived from AMSR2'
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
     driver: yaml_file_cat
     metadata: {}
-
   CLOUD_TOP_HEIGHT:
     args:
-      path: "{{CATALOG_DIR}}/cloud_top_height.yaml"
-    description: 'Cloud top height product derived from AMALi'
+      path: '{{CATALOG_DIR}}/cloud_top_height.yaml'
+    description: Cloud top height product derived from AMALi
     driver: yaml_file_cat
     metadata: {}
-
   MiRAC-A:
     args:
-      path: "{{CATALOG_DIR}}/mirac-a.yaml"
-    description: 'MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data'
+      path: '{{CATALOG_DIR}}/mirac-a.yaml'
+    description: MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data
     driver: yaml_file_cat
     metadata: {}
-
   HATPRO:
     args:
-      path: "{{CATALOG_DIR}}/hatpro.yaml"
-    description: 'HATPRO 22 and 50 GHz radiometer data'
+      path: '{{CATALOG_DIR}}/hatpro.yaml'
+    description: HATPRO 22 and 50 GHz radiometer data
     driver: yaml_file_cat
     metadata: {}
-
   NEVZOROV:
     args:
-      path: "{{CATALOG_DIR}}/nevzorov.yaml"
-    description: 'Nevzorov sensor'
+      path: '{{CATALOG_DIR}}/nevzorov.yaml'
+    description: Nevzorov sensor
     driver: yaml_file_cat
     metadata: {}
-
   CDP:
     args:
-      path: "{{CATALOG_DIR}}/cdp.yaml"
-    description: 'CDP in-situ probe'
+      path: '{{CATALOG_DIR}}/cdp.yaml'
+    description: CDP in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
   CIP:
     args:
-      path: "{{CATALOG_DIR}}/cip.yaml"
-    description: 'CIP in-situ probe'
+      path: '{{CATALOG_DIR}}/cip.yaml'
+    description: CIP in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
   PIP:
     args:
-      path: "{{CATALOG_DIR}}/pip.yaml"
-    description: 'PIP in-situ probe'
+      path: '{{CATALOG_DIR}}/pip.yaml'
+    description: PIP in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
   PMS_COMBINED:
     args:
-      path: "{{CATALOG_DIR}}/pms_combined.yaml"
-    description: 'Combined in-situ probes'
+      path: '{{CATALOG_DIR}}/pms_combined.yaml'
+    description: Combined in-situ probes
     driver: yaml_file_cat
     metadata: {}
-
   DROPSONDES:
     args:
-      path: "{{CATALOG_DIR}}/dropsondes.yaml"
-    description: 'Launched dropsondes'
+      path: '{{CATALOG_DIR}}/dropsondes.yaml'
+    description: Launched dropsondes
     driver: yaml_file_cat
     metadata: {}
-
   FISH_EYE_CAMERA:
     args:
-      path: "{{CATALOG_DIR}}/fish_eye.yaml"
-    description: 'Fish-eye camera radiances'
+      path: '{{CATALOG_DIR}}/fish_eye.yaml'
+    description: Fish-eye camera radiances
     driver: yaml_file_cat
     metadata: {}
-
   2D_SPEC:
     args:
-      path: "{{CATALOG_DIR}}/2d_spec.yaml"
-    description: '2D stereoscopic probes'
+      path: '{{CATALOG_DIR}}/2d_spec.yaml'
+    description: 2D stereoscopic probes
     driver: yaml_file_cat
     metadata: {}

@@ -1,43 +1,35 @@
-description: "AC3airborne Intake Data Catalog"
-
+description: AC3airborne Intake Data Catalog
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   ACLOUD:
-
     args:
-      path: "{{CATALOG_DIR}}/ACLOUD/main.yaml"
-    description: 'Data from the ACLOUD campaign'
+      path: '{{CATALOG_DIR}}/ACLOUD/main.yaml'
+    description: Data from the ACLOUD campaign
     driver: yaml_file_cat
     metadata: {}
-
   PAMARCMiP:
-      args:
-        path: "{{CATALOG_DIR}}/PAMARCMiP/main.yaml"
-      description: 'Data from the Polar 5 aircraft during PAMARCMiP'
-      driver: yaml_file_cat
-      metadata: {}
-
+    args:
+      path: '{{CATALOG_DIR}}/PAMARCMiP/main.yaml'
+    description: Data from the Polar 5 aircraft during PAMARCMiP
+    driver: yaml_file_cat
+    metadata: {}
   AFLUX:
-      args:
-        path: "{{CATALOG_DIR}}/AFLUX/main.yaml"
-      description: 'Data from the Polar 5 aircraft during AFLUX'
-      driver: yaml_file_cat
-      metadata: {}
-
+    args:
+      path: '{{CATALOG_DIR}}/AFLUX/main.yaml'
+    description: Data from the Polar 5 aircraft during AFLUX
+    driver: yaml_file_cat
+    metadata: {}
   MOSAiC-ACA:
-      args:
-        path: "{{CATALOG_DIR}}/MOSAiC-ACA/main.yaml"
-      description: 'Data from the Polar 5 aircraft during MOSAiC-ACA'
-      driver: yaml_file_cat
-      metadata: {}
-
+    args:
+      path: '{{CATALOG_DIR}}/MOSAiC-ACA/main.yaml'
+    description: Data from the Polar 5 aircraft during MOSAiC-ACA
+    driver: yaml_file_cat
+    metadata: {}
   HALO-AC3:
-      args:
-        path: "{{CATALOG_DIR}}/HALO-AC3/main.yaml"
-      description: 'Data from the HALO-AC3 campaign'
-      driver: yaml_file_cat
-      metadata: {}
+    args:
+      path: '{{CATALOG_DIR}}/HALO-AC3/main.yaml'
+    description: Data from the HALO-AC3 campaign
+    driver: yaml_file_cat
+    metadata: {}

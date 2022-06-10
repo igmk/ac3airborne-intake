@@ -1,47 +1,40 @@
 plugins:
-   source:
-     - module: intake_xarray
-
+  source:
+  - module: intake_xarray
 sources:
-
-   GPS_INS:
-       args:
-         path: "{{CATALOG_DIR}}/gps_ins.yaml"
-       description: 'Aircraft position and attitude data'
-       driver: yaml_file_cat
-       metadata: {}
-
-   MiRAC-A:
-     args:
-       path: "{{CATALOG_DIR}}/mirac-a.yaml"
-     description: 'MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data'
-     driver: yaml_file_cat
-     metadata: {}
-
-   DROPSONDES:
-     args:
-       path: "{{CATALOG_DIR}}/dropsondes.yaml"
-     description: 'Launched dropsondes'
-     driver: yaml_file_cat
-     metadata: {}
-
-   HATPRO:
-     args:
-       path: "{{CATALOG_DIR}}/hatpro.yaml"
-     description: 'HATPRO radiometer data'
-     driver: yaml_file_cat
-     metadata: {}
-     
-   BROADBAND_IRRADIANCE:
-     args:
-       path: "{{CATALOG_DIR}}/broadband_irradiance.yaml"
-     description: 'Solar and terrestrial broadband irradiance and nadir brightness temperature'
-     driver: yaml_file_cat
-     metadata: {}     
-
-   AMSR2_SIC:
-     args:
-       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-     description: 'Sea ice concentration at aircraft position derived from AMSR2'
-     driver: yaml_file_cat
-     metadata: {}
+  GPS_INS:
+    args:
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data
+    driver: yaml_file_cat
+    metadata: {}
+  MiRAC-A:
+    args:
+      path: '{{CATALOG_DIR}}/mirac-a.yaml'
+    description: MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+  DROPSONDES:
+    args:
+      path: '{{CATALOG_DIR}}/dropsondes.yaml'
+    description: Launched dropsondes
+    driver: yaml_file_cat
+    metadata: {}
+  HATPRO:
+    args:
+      path: '{{CATALOG_DIR}}/hatpro.yaml'
+    description: HATPRO radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+  BROADBAND_IRRADIANCE:
+    args:
+      path: '{{CATALOG_DIR}}/broadband_irradiance.yaml'
+    description: Solar and terrestrial broadband irradiance and nadir brightness temperature
+    driver: yaml_file_cat
+    metadata: {}
+  AMSR2_SIC:
+    args:
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
+    driver: yaml_file_cat
+    metadata: {}

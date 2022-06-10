@@ -1,8 +1,7 @@
 plugins:
   source:
-    - module: intake_xarray
+  - module: intake_xarray
 sources:
-
   AFLUX_P5_RF02:
     driver: netcdf
     args:

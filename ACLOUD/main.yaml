@@ -1,28 +1,23 @@
-description: "AC3airborne Intake Data Catalog"
-
+description: AC3airborne Intake Data Catalog
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
-    P5:
-      args:
-        path: "{{CATALOG_DIR}}/P5/main.yaml"
-      description: 'Data from the Polar 5 aircraft during ACLOUD'
-      driver: yaml_file_cat
-      metadata: {}
-
-    P6:
-      args:
-        path: "{{CATALOG_DIR}}/P6/main.yaml"
-      description: 'Data from the Polar 6 aircraft during ACLOUD'
-      driver: yaml_file_cat
-      metadata: {}
-
-    Polarstern:
-      args:
-        path: "{{CATALOG_DIR}}/Polarstern/main.yaml"
-      description: 'Data from the research vessel Polarstern during PASCAL/ACLOUD'
-      driver: yaml_file_cat
-      metadata: {}
+  P5:
+    args:
+      path: '{{CATALOG_DIR}}/P5/main.yaml'
+    description: Data from the Polar 5 aircraft during ACLOUD
+    driver: yaml_file_cat
+    metadata: {}
+  P6:
+    args:
+      path: '{{CATALOG_DIR}}/P6/main.yaml'
+    description: Data from the Polar 6 aircraft during ACLOUD
+    driver: yaml_file_cat
+    metadata: {}
+  Polarstern:
+    args:
+      path: '{{CATALOG_DIR}}/Polarstern/main.yaml'
+    description: Data from the research vessel Polarstern during PASCAL/ACLOUD
+    driver: yaml_file_cat
+    metadata: {}

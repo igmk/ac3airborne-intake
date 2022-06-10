@@ -1,185 +1,169 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   ACLOUD_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_05_20170525_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_06_20170527_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_07_20170527_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_10_20170531_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_11_20170602_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF13:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_13_20170605_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF14:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_14_20170608_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF16:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_16_20170613_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF17:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_17_20170614_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF18:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_18_20170616_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF19:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_19_20170617_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF20:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_20_20170618_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF21:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_21_20170620_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF22:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_22_20170623_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   ACLOUD_P5_RF23:
     driver: netcdf
     args:
       urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_dropsondes/DS_ACLOUD_Flight_23_20170625_V2.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str

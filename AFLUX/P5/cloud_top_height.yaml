@@ -6,68 +6,54 @@ metadata:
     password:
       type: str
       description: password for ac3 cloud
-
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   AFLUX_P5_RF03:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190321_RF03.nc
-
   AFLUX_P5_RF04:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190323_RF04.nc
-
   AFLUX_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190324_RF05.nc
-
   AFLUX_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190325_RF06.nc
-
   AFLUX_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190330_RF07.nc
-
   AFLUX_P5_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190331_RF08.nc
-
   AFLUX_P5_RF09:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190401_RF09.nc
-
   AFLUX_P5_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190403_RF10.nc
-
   AFLUX_P5_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190404_RF11.nc
-
   AFLUX_P5_RF12:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190406_RF12.nc
-
   AFLUX_P5_RF13:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/aflux/p5/cloud_top_height/cloud_top_height_AFLUX_polar5_20190407_RF13.nc
-
   AFLUX_P5_RF14:
     driver: netcdf
     args:

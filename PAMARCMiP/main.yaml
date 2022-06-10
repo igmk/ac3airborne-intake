@@ -1,14 +1,11 @@
-description: "AC3airborne Intake Data Catalog"
-
+description: AC3airborne Intake Data Catalog
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
-    P5:
-      args:
-        path: "{{CATALOG_DIR}}/P5/main.yaml"
-      description: 'Data from the PAMARCMiP campaign'
-      driver: yaml_file_cat
-      metadata: {}
+  P5:
+    args:
+      path: '{{CATALOG_DIR}}/P5/main.yaml'
+    description: Data from the PAMARCMiP campaign
+    driver: yaml_file_cat
+    metadata: {}

@@ -1,49 +1,36 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   MOSAiC-ACA_P5_RF03:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200831_RF03.nc
-
   MOSAiC-ACA_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200902_RF05.nc
-
   MOSAiC-ACA_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200904_RF06.nc
-
   MOSAiC-ACA_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200907_RF07.nc
-
   MOSAiC-ACA_P5_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200908_RF08.nc
-
   MOSAiC-ACA_P5_RF09:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200910_RF09.nc
-
   MOSAiC-ACA_P5_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200911_RF10.nc
-
   MOSAiC-ACA_P5_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/940557/files/cdp_MOSAiC-ACA_polar5_20200913_RF11.nc
-
-
-
-

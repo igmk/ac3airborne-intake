@@ -1,69 +1,55 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   HALO-AC3_P6_RF01:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220320_RF01.nc
-
   HALO-AC3_P6_RF02:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220322_RF02.nc
-
   HALO-AC3_P6_RF03:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220324_RF03.nc
-
   HALO-AC3_P6_RF04:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220326_RF04.nc
-
   HALO-AC3_P6_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220328_RF05_filled.nc
-
   HALO-AC3_P6_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220329_RF06.nc
-
   HALO-AC3_P6_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220330_RF07.nc
-
   HALO-AC3_P6_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220401_RF08.nc
-
   HALO-AC3_P6_RF09:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220404_RF09.nc
-
   HALO-AC3_P6_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220405_RF10.nc
-
   HALO-AC3_P6_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220408_RF11.nc
-
   HALO-AC3_P6_RF12:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p6/gps_ins/HALO-AC3_P6_GPS_INS_20220409_RF12.nc
-
   HALO-AC3_P6_RF13:
     driver: netcdf
     args:

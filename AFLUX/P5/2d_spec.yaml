@@ -1,77 +1,60 @@
-
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   AFLUX_P5_RF02:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight02_20190319_created210922.nc
-
   AFLUX_P5_RF03:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight03_20190321_created210922.nc
-
   AFLUX_P5_RF04:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight04_20190323_created210922.nc
-
   AFLUX_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight05_20190324_created210922.nc
-
   AFLUX_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight06_20190325_created210922.nc
-
   AFLUX_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight07_20190330_created210922.nc
-
   AFLUX_P5_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight08_20190331_created210922.nc
-
   AFLUX_P5_RF09:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight09_20190401_created210922.nc
-  
   AFLUX_P5_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight10_20190403_created210922.nc
-  
   AFLUX_P5_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight11_20190404_created210922.nc
-  
   AFLUX_P5_RF12:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight12_20190406_created211117.nc
-  
   AFLUX_P5_RF13:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight13_20190407_created210922.nc
-  
   AFLUX_P5_RF14:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight14_20190408_created210922.nc
-
   AFLUX_P5_RF15:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/941498/files/LaMP_AFLUX_flight15_20190411_created210922.nc
-

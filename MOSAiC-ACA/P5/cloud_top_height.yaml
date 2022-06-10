@@ -6,33 +6,26 @@ metadata:
     password:
       type: str
       description: password for ac3 cloud
-
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   MOSAiC-ACA_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/cloud_top_height/cloud_top_height_MOSAiC-ACA_polar5_20200902_RF05.nc
-
   MOSAiC-ACA_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/cloud_top_height/cloud_top_height_MOSAiC-ACA_polar5_20200904_RF06.nc
-
   MOSAiC-ACA_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/cloud_top_height/cloud_top_height_MOSAiC-ACA_polar5_20200907_RF07.nc
-
   MOSAiC-ACA_P5_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/mosaic-aca/p5/cloud_top_height/cloud_top_height_MOSAiC-ACA_polar5_20200908_RF08.nc
-
   MOSAiC-ACA_P5_RF10:
     driver: netcdf
     args:

@@ -1,60 +1,54 @@
 plugins:
-   source:
-     - module: intake_xarray
-
+  source:
+  - module: intake_xarray
 sources:
   GPS_INS:
     args:
-      path: "{{CATALOG_DIR}}/gps_ins.yaml"
-    description: 'Aicraft position and attitude data'
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aicraft position and attitude data
     driver: yaml_file_cat
     metadata: {}
-
   AMSR2_SIC:
     args:
-      path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-    description: 'Sea ice concentration at aircraft position derived from AMSR2'
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
     driver: yaml_file_cat
     metadata: {}
-
   NOSE_BOOM:
     args:
-      path: "{{CATALOG_DIR}}/nose_boom.yaml"
-    description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
+      path: '{{CATALOG_DIR}}/nose_boom.yaml'
+    description: High resolution aircraft measurements of wind and temperature at
+      the nose boom of the aircraft
     driver: yaml_file_cat
     metadata: {}
-  
   CDP_CIP_PIP:
     args:
-      path: "{{CATALOG_DIR}}/cdp_cip_pip.yaml"
-    description: 'CDP, CIP and PIP In-situ arctic cloud microphysical properties'
+      path: '{{CATALOG_DIR}}/cdp_cip_pip.yaml'
+    description: CDP, CIP and PIP In-situ arctic cloud microphysical properties
     driver: yaml_file_cat
     metadata: {}
-
   CVI_PSAP_CPC_UHSAS:
     args:
-      path: "{{CATALOG_DIR}}/cvi_psap_cpc_uhsas.yaml"
-    description: 'CVI inlet and PSAP, CPC and UHSAS In-situ arctic cloud particle properties'
+      path: '{{CATALOG_DIR}}/cvi_psap_cpc_uhsas.yaml'
+    description: CVI inlet and PSAP, CPC and UHSAS In-situ arctic cloud particle properties
     driver: yaml_file_cat
     metadata: {}
-
   CO_CO2_H2O:
     args:
-      path: "{{CATALOG_DIR}}/co_co2_h2o.yaml"
-    description: 'In-situ measurements of CO, CO2, H2O and O3'
+      path: '{{CATALOG_DIR}}/co_co2_h2o.yaml'
+    description: In-situ measurements of CO, CO2, H2O and O3
     driver: yaml_file_cat
     metadata: {}
-
   OPC:
     args:
-      path: "{{CATALOG_DIR}}/opc.yaml"
-    description: 'In-situ measurements of particle number concentration and size distribution using an optical particle counter'
+      path: '{{CATALOG_DIR}}/opc.yaml'
+    description: In-situ measurements of particle number concentration and size distribution
+      using an optical particle counter
     driver: yaml_file_cat
     metadata: {}
-
   ALABAMA:
     args:
-      path: "{{CATALOG_DIR}}/alabama.yaml"
-    description: 'Particle size and chemical composition for individual aerosol particles'
+      path: '{{CATALOG_DIR}}/alabama.yaml'
+    description: Particle size and chemical composition for individual aerosol particles
     driver: yaml_file_cat
     metadata: {}

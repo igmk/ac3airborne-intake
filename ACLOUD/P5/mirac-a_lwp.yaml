@@ -1,62 +1,51 @@
 plugins:
   source:
-    - module: intake_xarray
+  - module: intake_xarray
 sources:
   ACLOUD_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF05_20170525_liquid_water_path.nc
-
   ACLOUD_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF06_20170527_liquid_water_path.nc
-
   ACLOUD_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF07_20170527_liquid_water_path.nc
-
   ACLOUD_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF11_20170602_liquid_water_path.nc  
-
+      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF11_20170602_liquid_water_path.nc
   ACLOUD_P5_RF14:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF14_20170608_liquid_water_path.nc
-
   ACLOUD_P5_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF15_20170609_liquid_water_path.nc  
-
+      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF15_20170609_liquid_water_path.nc
   ACLOUD_P5_RF16:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF16_20170613_liquid_water_path.nc  
-
+      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF16_20170613_liquid_water_path.nc
   ACLOUD_P5_RF18:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF18_20170616_liquid_water_path.nc
-
   ACLOUD_P5_RF19:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF19_20170617_liquid_water_path.nc  
-
+      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF19_20170617_liquid_water_path.nc
   ACLOUD_P5_RF20:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF20_20170618_liquid_water_path.nc  
-
+      urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF20_20170618_liquid_water_path.nc
   ACLOUD_P5_RF21:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933387/files/ACLOUD_RF21_20170620_liquid_water_path.nc
-
   ACLOUD_P5_RF22:
     driver: netcdf
     args:

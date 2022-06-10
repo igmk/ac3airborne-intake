@@ -1,88 +1,79 @@
 plugins:
-   source:
-     - module: intake_xarray
-
+  source:
+  - module: intake_xarray
 sources:
   GPS_INS:
     args:
-      path: "{{CATALOG_DIR}}/gps_ins.yaml"
-    description: 'Aircraft position and attitude data'
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data
     driver: yaml_file_cat
     metadata: {}
-
   AMSR2_SIC:
     args:
-      path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-    description: 'Sea ice concentration at aircraft position derived from AMSR2'
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
     driver: yaml_file_cat
     metadata: {}
-
   CLOUD_TOP_HEIGHT:
     args:
-      path: "{{CATALOG_DIR}}/cloud_top_height.yaml"
-    description: 'Cloud top height product derived from AMALi'
+      path: '{{CATALOG_DIR}}/cloud_top_height.yaml'
+    description: Cloud top height product derived from AMALi
     driver: yaml_file_cat
     metadata: {}
-
   MiRAC-A:
     args:
-      path: "{{CATALOG_DIR}}/mirac-a.yaml"
-    description: 'MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data'
+      path: '{{CATALOG_DIR}}/mirac-a.yaml'
+    description: MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data
     driver: yaml_file_cat
     metadata: {}
-
   MiRAC-A_LWP:
     args:
-      path: "{{CATALOG_DIR}}/mirac-a_lwp.yaml"
-    description: 'LWP derived from the passive channel of MiRAC-A'
+      path: '{{CATALOG_DIR}}/mirac-a_lwp.yaml'
+    description: LWP derived from the passive channel of MiRAC-A
     driver: yaml_file_cat
     metadata: {}
-
   MiRAC-P:
     args:
-      path: "{{CATALOG_DIR}}/mirac-p.yaml"
-    description: 'MiRAC-P 6x183, 243 and 340 GHz radiometer data'
+      path: '{{CATALOG_DIR}}/mirac-p.yaml'
+    description: MiRAC-P 6x183, 243 and 340 GHz radiometer data
     driver: yaml_file_cat
     metadata: {}
-
   DROPSONDES:
     args:
-      path: "{{CATALOG_DIR}}/dropsondes.yaml"
-    description: 'Launched dropsondes'
+      path: '{{CATALOG_DIR}}/dropsondes.yaml'
+    description: Launched dropsondes
     driver: yaml_file_cat
     metadata: {}
-
   FISH_EYE_CAMERA:
     args:
-      path: "{{CATALOG_DIR}}/fish_eye.yaml"
-    description: 'Fish-eye camera radiances'
+      path: '{{CATALOG_DIR}}/fish_eye.yaml'
+    description: Fish-eye camera radiances
     driver: yaml_file_cat
     metadata: {}
-  
   BROADBAND_IRRADIANCE:
     args:
-      path: "{{CATALOG_DIR}}/broadband_irradiance.yaml"
-    description: 'Solar and terrestrial broadband irradiance and nadir brightness temperature'
+      path: '{{CATALOG_DIR}}/broadband_irradiance.yaml'
+    description: Solar and terrestrial broadband irradiance and nadir brightness temperature
     driver: yaml_file_cat
     metadata: {}
-
   NOSE_BOOM:
     args:
-      path: "{{CATALOG_DIR}}/nose_boom.yaml"
-    description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
+      path: '{{CATALOG_DIR}}/nose_boom.yaml'
+    description: High resolution aircraft measurements of wind and temperature at
+      the nose boom of the aircraft
     driver: yaml_file_cat
     metadata: {}
-  
   HAWK:
     args:
-      path: "{{CATALOG_DIR}}/hawk.yaml"
-    description: 'Spectral solar cloud top radiance measured by airborne spectral imaging (AISA Hawk)'
+      path: '{{CATALOG_DIR}}/hawk.yaml'
+    description: Spectral solar cloud top radiance measured by airborne spectral imaging
+      (AISA Hawk)
     driver: yaml_file_cat
     metadata: {}
-
   EAGLE:
     args:
-      path: "{{CATALOG_DIR}}/eagle.yaml"
-    description: 'Hyperspectral fields of visible and near infrared cloud top radiance observed by AISA Eagle'
+      path: '{{CATALOG_DIR}}/eagle.yaml'
+    description: Hyperspectral fields of visible and near infrared cloud top radiance
+      observed by AISA Eagle
     driver: yaml_file_cat
     metadata: {}

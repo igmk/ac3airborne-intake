@@ -1,82 +1,70 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   BAHAMAS:
     args:
-      path: "{{CATALOG_DIR}}/bahamas.yaml"
-    description: 'Aircraft basic position and attitude data'
+      path: '{{CATALOG_DIR}}/bahamas.yaml'
+    description: Aircraft basic position and attitude data
     driver: yaml_file_cat
     metadata: {}
-
   BACARDI:
     args:
-      path: "{{CATALOG_DIR}}/bacardi.yaml"
-    description: 'Aircraft broadband radiation data'
+      path: '{{CATALOG_DIR}}/bacardi.yaml'
+    description: Aircraft broadband radiation data
     driver: yaml_file_cat
     metadata: {}
-
   DROPSONDES:
     args:
-      path: "{{CATALOG_DIR}}/dropsondes.yaml"
-    description: 'Dropsonde data'
+      path: '{{CATALOG_DIR}}/dropsondes.yaml'
+    description: Dropsonde data
     driver: yaml_file_cat
     metadata: {}
-
   DROPSONDES_GRIDDED:
     args:
-      path: "{{CATALOG_DIR}}/dropsondes_gridded.yaml"
-    description: 'Gridded dropsonde data'
+      path: '{{CATALOG_DIR}}/dropsondes_gridded.yaml'
+    description: Gridded dropsonde data
     driver: yaml_file_cat
-    metadata: { }
-
+    metadata: {}
   GPS_INS:
     args:
-      path: "{{CATALOG_DIR}}/gps_ins.yaml"
-    description: 'Aircraft position and attitude data as recorded by HALO-SMART'
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data as recorded by HALO-SMART
     driver: yaml_file_cat
     metadata: {}
-
   HAMP_KV:
     args:
-      path: "{{CATALOG_DIR}}/hamp_kv.yaml"
-    description: 'Data from the HAMP module HAMP-KV'
+      path: '{{CATALOG_DIR}}/hamp_kv.yaml'
+    description: Data from the HAMP module HAMP-KV
     driver: yaml_file_cat
     metadata: {}
-
   HAMP_11990:
     args:
-      path: "{{CATALOG_DIR}}/hamp_11990.yaml"
-    description: 'Data from the HAMP module HAMP-11990'
+      path: '{{CATALOG_DIR}}/hamp_11990.yaml'
+    description: Data from the HAMP module HAMP-11990
     driver: yaml_file_cat
     metadata: {}
-
   HAMP_183:
     args:
-      path: "{{CATALOG_DIR}}/hamp_183.yaml"
-    description: 'Data from the HAMP module HAMP-183'
+      path: '{{CATALOG_DIR}}/hamp_183.yaml'
+    description: Data from the HAMP module HAMP-183
     driver: yaml_file_cat
     metadata: {}
-
   HAMP_MIRA:
     args:
-      path: "{{CATALOG_DIR}}/hamp_mira.yaml"
-    description: 'Data from the HAMP-MIRA radar'
+      path: '{{CATALOG_DIR}}/hamp_mira.yaml'
+    description: Data from the HAMP-MIRA radar
     driver: yaml_file_cat
     metadata: {}
-
   SMART:
     args:
-      path: "{{CATALOG_DIR}}/smart.yaml"
-    description: 'Data from the SMART radiometers'
+      path: '{{CATALOG_DIR}}/smart.yaml'
+    description: Data from the SMART radiometers
     driver: yaml_file_cat
     metadata: {}
-
-   AMSR2_SIC:
-     args:
-       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-     description: 'Sea ice concentration at aircraft position derived from AMSR2'
-     driver: yaml_file_cat
-     metadata: {}
+  AMSR2_SIC:
+    args:
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
+    driver: yaml_file_cat
+    metadata: {}

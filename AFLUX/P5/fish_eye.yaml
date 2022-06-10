@@ -1,148 +1,147 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   AFLUX_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190321_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190321_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190323_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190323_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190324_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190324_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190325_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190325_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190330_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190330_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190331_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190331_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190401_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190401_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190403_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190403_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190404_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190404_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF12:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190406_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190406_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190407_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190407_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190408_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190408_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str
-
   AFLUX_P5_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190411_{{ hour }}UTC.nc
+      urlpath: simplecache::https://download.pangaea.de/dataset/933839/files/NIKON_radiance_P5_20190411_{{
+        hour }}UTC.nc
       xarray_kwargs:
-        decode_times: False
+        decode_times: false
     parameters:
       hour:
-        description: 'hour of day (hh, UTC)'
+        description: hour of day (hh, UTC)
         type: str

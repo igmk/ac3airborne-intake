@@ -1,202 +1,178 @@
 sources:
-
   ACLOUD_P6_RF07:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900388?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF08:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900392?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF09:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900412?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF10:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900413?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'        
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF11:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900414?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'   
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF12:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900415?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'  
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF13:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900416?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'    
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF14:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900417?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF15:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900398?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF16:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900419?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF17:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900420?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF18:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900421?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF19:
     driver: csv
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900422?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 122
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF20:
     driver: csv
-    description: 'CVI measurements only'
+    description: CVI measurements only
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900394?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 25
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF21:
     driver: csv
-    description: 'CVI measurements only'
+    description: CVI measurements only
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900395?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 25
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF22:
     driver: csv
-    description: 'CVI measurements only'
+    description: CVI measurements only
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900396?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 25
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF23:
     driver: csv
-    description: 'CVI measurements only'
+    description: CVI measurements only
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900393?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 25
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF24:
     driver: csv
-    description: 'CVI measurements only'
+    description: CVI measurements only
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900506?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 25
-        assume_missing: True
-        engine: 'python'
-
+        assume_missing: true
+        engine: python
   ACLOUD_P6_RF25:
     driver: csv
-    description: 'CVI measurements only'
+    description: CVI measurements only
     args:
       urlpath: simplecache::https://doi.pangaea.de/10.1594/PANGAEA.900507?format=textfile
       csv_kwargs:
-        sep: '\t'
+        sep: \t
         skiprows: 25
-        assume_missing: True
-        engine: 'python'
-
-
-
-
+        assume_missing: true
+        engine: python

@@ -1,90 +1,81 @@
 plugins:
   source:
-    - module: intake_xarray
-
+  - module: intake_xarray
 sources:
-
   MOSAiC-ACA_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200902.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   MOSAiC-ACA_P5_RF06:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200904.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   MOSAiC-ACA_P5_RF07:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200907.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   MOSAiC-ACA_P5_RF08:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200908.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   MOSAiC-ACA_P5_RF09:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200910.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   MOSAiC-ACA_P5_RF10:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200911.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-
   MOSAiC-ACA_P5_RF11:
     driver: netcdf
     args:
       urlpath: simplecache::https://download.pangaea.de/dataset/933581/files/DS_MOSAiC_ACA_Flight_20200913.nc
       xarray_kwargs:
         group: Dropsonde_#{{i_sonde.zfill(2)}}
-        decode_times: False
+        decode_times: false
     parameters:
       i_sonde:
-        description: 'number of sonde of flight'
+        description: number of sonde of flight
         type: str
-

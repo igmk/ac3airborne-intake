@@ -1,47 +1,40 @@
 plugins:
-   source:
-     - module: intake_xarray
-
+  source:
+  - module: intake_xarray
 sources:
-
   GPS_INS:
-     args:
-       path: "{{CATALOG_DIR}}/gps_ins.yaml"
-     description: 'Aircraft position and attitude data'
-     driver: yaml_file_cat
-     metadata: {}
-
+    args:
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data
+    driver: yaml_file_cat
+    metadata: {}
   CDP:
     args:
-      path: "{{CATALOG_DIR}}/cdp.yaml"
-    description: 'CDP in-situ probe'
+      path: '{{CATALOG_DIR}}/cdp.yaml'
+    description: CDP in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
   CIP:
     args:
-      path: "{{CATALOG_DIR}}/cip.yaml"
-    description: 'CIP in-situ probe'
+      path: '{{CATALOG_DIR}}/cip.yaml'
+    description: CIP in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
   PIP:
     args:
-      path: "{{CATALOG_DIR}}/pip.yaml"
-    description: 'PIP in-situ probe'
+      path: '{{CATALOG_DIR}}/pip.yaml'
+    description: PIP in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
   BCPD:
     args:
-      path: "{{CATALOG_DIR}}/bcpd.yaml"
-    description: 'BCPD in-situ probe'
+      path: '{{CATALOG_DIR}}/bcpd.yaml'
+    description: BCPD in-situ probe
     driver: yaml_file_cat
     metadata: {}
-
-   AMSR2_SIC:
-     args:
-       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-     description: 'Sea ice concentration at aircraft position derived from AMSR2'
-     driver: yaml_file_cat
-     metadata: {}
+  AMSR2_SIC:
+    args:
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
+    driver: yaml_file_cat
+    metadata: {}

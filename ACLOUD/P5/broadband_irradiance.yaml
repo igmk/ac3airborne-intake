@@ -1,6 +1,6 @@
 plugins:
   source:
-    - module: intake_xarray
+  - module: intake_xarray
 sources:
   ACLOUD_P5_RF04:
     driver: netcdf
