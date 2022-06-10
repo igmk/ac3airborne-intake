@@ -63,17 +63,3 @@ sources:
       the nose boom of the aircraft
     driver: yaml_file_cat
     metadata: {}
-  HAWK:
-    args:
-      path: '{{CATALOG_DIR}}/hawk.yaml'
-    description: Spectral solar cloud top radiance measured by airborne spectral imaging
-      (AISA Hawk)
-    driver: yaml_file_cat
-    metadata: {}
-  EAGLE:
-    args:
-      path: '{{CATALOG_DIR}}/eagle.yaml'
-    description: Hyperspectral fields of visible and near infrared cloud top radiance
-      observed by AISA Eagle
-    driver: yaml_file_cat
-    metadata: {}
