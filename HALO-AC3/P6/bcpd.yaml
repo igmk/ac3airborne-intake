@@ -18,10 +18,6 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p6/DLR-PMS/BCPD/HALO-AC3_P6_BCPD_beta_1_20220322_RF02.nc
-  HALO-AC3_P6_RF03:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p6/DLR-PMS/BCPD/HALO-AC3_P6_BCPD_beta_1_20220324_RF03.nc
   HALO-AC3_P6_RF04:
     driver: netcdf
     args:
