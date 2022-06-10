@@ -39,45 +39,9 @@ sources:
      driver: yaml_file_cat
      metadata: {}     
 
-#   AMSR2_SIC:
-#     args:
-#       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-#     description: 'Sea ice concentration at aircraft position derived from AMSR2'
-#     driver: yaml_file_cat
-#     metadata: {}
-
-#   CLOUD_TOP_HEIGHT:
-#     args:
-#       path: "{{CATALOG_DIR}}/cloud_top_height.yaml"
-#     description: 'Cloud top height product derived from AMALi'
-#     driver: yaml_file_cat
-#     metadata: {}
-
-#   FISH_EYE_CAMERA:
-#     args:
-#       path: "{{CATALOG_DIR}}/fish_eye.yaml"
-#     description: 'Fish-eye camera radiances'
-#     driver: yaml_file_cat
-#     metadata: {}
-  
-
-#   NOSE_BOOM:
-#     args:
-#       path: "{{CATALOG_DIR}}/nose_boom.yaml"
-#     description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
-#     driver: yaml_file_cat
-#     metadata: {}
-  
-#   HAWK:
-#     args:
-#       path: "{{CATALOG_DIR}}/hawk.yaml"
-#     description: 'Spectral solar cloud top radiance measured by airborne spectral imaging (AISA Hawk)'
-#     driver: yaml_file_cat
-#     metadata: {}
-
-#   EAGLE:
-#     args:
-#       path: "{{CATALOG_DIR}}/eagle.yaml"
-#     description: 'Hyperspectral fields of visible and near infrared cloud top radiance observed by AISA Eagle'
-#     driver: yaml_file_cat
-#     metadata: {}
+   AMSR2_SIC:
+     args:
+       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
+     description: 'Sea ice concentration at aircraft position derived from AMSR2'
+     driver: yaml_file_cat
+     metadata: {}

@@ -1,4 +1,3 @@
-# file prepared with for i in `find ac3/acloud -name "*.nc"`; do echo "  ACLOUD_P5_RF:";echo "    driver: netcdf";echo "    args:";echo "      urlpath: https://atmos.meteo.uni-koeln.de/$i";echo "";done
 metadata:
   parameters:
     user:

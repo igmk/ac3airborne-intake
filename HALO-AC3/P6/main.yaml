@@ -39,23 +39,9 @@ sources:
     driver: yaml_file_cat
     metadata: {}
 
-  # AMSR2_SIC:
-  #   args:
-  #     path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
-  #   description: 'Sea ice concentration at aircraft position derived from AMSR2'
-  #   driver: yaml_file_cat
-  #   metadata: {}
-
-  # NOSE_BOOM:
-  #   args:
-  #     path: "{{CATALOG_DIR}}/nose_boom.yaml"
-  #   description: 'High resolution aircraft measurements of wind and temperature at the nose boom of the aircraft'
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  
-  # CDP_CIP_PIP:
-  #   args:
-  #     path: "{{CATALOG_DIR}}/cdp_cip_pip.yaml"
-  #   description: 'CDP, CIP and PIP In-situ arctic cloud microphysical properties'
-  #   driver: yaml_file_cat
-  #   metadata: {}
+   AMSR2_SIC:
+     args:
+       path: "{{CATALOG_DIR}}/amsr2_sic.yaml"
+     description: 'Sea ice concentration at aircraft position derived from AMSR2'
+     driver: yaml_file_cat
+     metadata: {}

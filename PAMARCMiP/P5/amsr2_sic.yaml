@@ -7,69 +7,69 @@ sources:
   PAMARCMiP_P5_RF03:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180323_RF03.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180323_RF03.nc
 
   PAMARCMiP_P5_RF04:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180325_RF04.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180325_RF04.nc
 
   PAMARCMiP_P5_RF05:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180326_RF05.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180326_RF05.nc
 
   PAMARCMiP_P5_RF06:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180326_RF06.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180326_RF06.nc
 
   PAMARCMiP_P5_RF07:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180327_RF07.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180327_RF07.nc
 
   PAMARCMiP_P5_RF08:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180328_RF08.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180328_RF08.nc
 
   PAMARCMiP_P5_RF09:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180328_RF09.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180328_RF09.nc
 
   PAMARCMiP_P5_RF10:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180330_RF10.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180330_RF10.nc
 
   PAMARCMiP_P5_RF11:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180331_RF11.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180331_RF11.nc
 
   PAMARCMiP_P5_RF12:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180402_RF12.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180402_RF12.nc
 
   PAMARCMiP_P5_RF13:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180402_RF13.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180402_RF13.nc
 
   PAMARCMiP_P5_RF14:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180403_RF14.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180403_RF14.nc
 
   PAMARCMiP_P5_RF15:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180403_RF15.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180403_RF15.nc
 
   PAMARCMiP_P5_RF16:
     driver: netcdf
     args:
-      urlpath: https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/amsr2_sic_PAMARCMiP_polar5_20180404_RF16.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/pamarcmip/p5/amsr2_sea_ice_concentration/PAMARCMiP_P5_asi-AMSR2_20180404_RF16.nc
