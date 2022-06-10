@@ -6,7 +6,7 @@ plugins:
 
 sources:
 
-    P6:
+    P5:
       args:
         path: "{{CATALOG_DIR}}/P5/main.yaml"
       description: 'Data from the PAMARCMiP campaign'
