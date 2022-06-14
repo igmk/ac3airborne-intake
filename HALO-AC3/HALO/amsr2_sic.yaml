@@ -5,68 +5,68 @@ sources:
   HALO-AC3_HALO_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220312_RF02.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220312_RF02.nc
   HALO-AC3_HALO_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220313_RF03.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220313_RF03.nc
   HALO-AC3_HALO_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220314_RF04.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220314_RF04.nc
   HALO-AC3_HALO_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220315_RF05.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220315_RF05.nc
   HALO-AC3_HALO_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220316_RF06.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220316_RF06.nc
   HALO-AC3_HALO_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220320_RF07.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220320_RF07.nc
   HALO-AC3_HALO_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220321_RF08.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220321_RF08.nc
   HALO-AC3_HALO_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220328_RF09.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220328_RF09.nc
   HALO-AC3_HALO_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220329_RF10.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220329_RF10.nc
   HALO-AC3_HALO_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220330_RF11.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220330_RF11.nc
   HALO-AC3_HALO_RF12:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220401_RF12.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220401_RF12.nc
   HALO-AC3_HALO_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220404_RF13.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220404_RF13.nc
   HALO-AC3_HALO_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220407_RF14.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220407_RF14.nc
   HALO-AC3_HALO_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220408_RF15.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220408_RF15.nc
   HALO-AC3_HALO_RF16:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220410_RF16.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220410_RF16.nc
   HALO-AC3_HALO_RF17:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220411_RF17.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220411_RF17.nc
   HALO-AC3_HALO_RF18:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_20220412_RF18.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/halo/amsr2_sea_ice_concentration/HALO-AC3_HALO_asi-AMSR2_sic_20220412_RF18.nc
