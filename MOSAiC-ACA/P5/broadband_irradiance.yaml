@@ -1,0 +1,44 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  MOSAiC-ACA_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200830a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200831a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200831b_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200902a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200904a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200907a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200908a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200910a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200911a_Airborne_Broadband_Irradiance.nc
+  MOSAiC-ACA_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/936232/files/ACA_20200913a_Airborne_Broadband_Irradiance.nc

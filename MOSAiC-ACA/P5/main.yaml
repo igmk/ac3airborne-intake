@@ -80,3 +80,9 @@ sources:
     description: 2D stereoscopic probes
     driver: yaml_file_cat
     metadata: {}
+  BROADBAND_IRRADIANCE:
+    args:
+      path: '{{CATALOG_DIR}}/broadband_irradiance.yaml'
+    description: Solar and terrestrial broadband irradiance and nadir brightness temperature
+    driver: yaml_file_cat
+    metadata: {}
