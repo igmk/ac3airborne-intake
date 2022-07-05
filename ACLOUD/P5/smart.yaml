@@ -1,0 +1,76 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  ACLOUD_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170525_190301.nc
+  ACLOUD_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170527a_190301.nc
+  ACLOUD_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170527b_190301.nc
+  ACLOUD_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170529_190301.nc
+  ACLOUD_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170531_190301.nc
+  ACLOUD_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170602_190301.nc
+  ACLOUD_P5_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170605_190301.nc
+  ACLOUD_P5_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170608_190301.nc
+  ACLOUD_P5_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170609_190301.nc
+  ACLOUD_P5_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170613_190301.nc
+  ACLOUD_P5_RF17:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170614_190301.nc
+  ACLOUD_P5_RF18:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170616_190301.nc
+  ACLOUD_P5_RF19:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170617_190301.nc
+  ACLOUD_P5_RF20:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170618_190301.nc
+  ACLOUD_P5_RF21:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170620_190301.nc
+  ACLOUD_P5_RF22:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170623_190301.nc
+  ACLOUD_P5_RF23:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170625_190301.nc
+  ACLOUD_P5_RF25:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_irradiance/smart_irrad_170626_190301.nc

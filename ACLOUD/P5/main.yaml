@@ -63,3 +63,9 @@ sources:
       the nose boom of the aircraft
     driver: yaml_file_cat
     metadata: {}
+  SMART:
+    args:
+      path: '{{CATALOG_DIR}}/smart.yaml'
+    description: Spectral up- and downward irradiances measured by the Spectral Modular Airborne Radiation measurement sysTem (SMART-Albedometer)
+    driver: yaml_file_cat
+    metadata: {}

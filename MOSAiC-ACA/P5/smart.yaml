@@ -1,0 +1,36 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  MOSAiC-ACA_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200831b_210531.nc
+  MOSAiC-ACA_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200902a_210531.nc
+  MOSAiC-ACA_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200904a_210531.nc
+  MOSAiC-ACA_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200907a_210531.nc
+  MOSAiC-ACA_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200908a_210531.nc
+  MOSAiC-ACA_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200910a_210531.nc
+  MOSAiC-ACA_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200911a_210531.nc
+  MOSAiC-ACA_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/933850/files/smart_irrad_20200913a_210531.nc
