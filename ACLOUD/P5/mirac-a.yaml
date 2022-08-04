@@ -13,72 +13,72 @@ sources:
   ACLOUD_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170523_RF04.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170523_RF04.nc
   ACLOUD_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170525_RF05.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170525_RF05.nc
   ACLOUD_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170527_RF06.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170527_RF06.nc
   ACLOUD_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170527_RF07.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170527_RF07.nc
   ACLOUD_P5_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170529_RF08.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170529_RF08.nc
   ACLOUD_P5_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170531_RF10.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170531_RF10.nc
   ACLOUD_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170602_RF11.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170602_RF11.nc
   ACLOUD_P5_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170608_RF14.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170608_RF14.nc
   ACLOUD_P5_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170609_RF15.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170609_RF15.nc
   ACLOUD_P5_RF16:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170613_RF16.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170613_RF16.nc
   ACLOUD_P5_RF17:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170614_RF17.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170614_RF17.nc
   ACLOUD_P5_RF18:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170616_RF18.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170616_RF18.nc
   ACLOUD_P5_RF19:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170617_RF19.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170617_RF19.nc
   ACLOUD_P5_RF20:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170618_RF20.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170618_RF20.nc
   ACLOUD_P5_RF21:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170620_RF21.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170620_RF21.nc
   ACLOUD_P5_RF22:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170623_RF22.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170623_RF22.nc
   ACLOUD_P5_RF23:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170625_RF23.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170625_RF23.nc
   ACLOUD_P5_RF25:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/mirac_a_ACLOUD_polar5_20170626_RF25.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/acloud/p5/mirac_radar/ACLOUD_P5_MiRAC-A_20170626_RF25.nc
