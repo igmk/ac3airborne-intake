@@ -1,0 +1,70 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+
+  AFLUX_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190321.nc
+
+  AFLUX_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190323.nc
+
+  AFLUX_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190324.nc
+
+  AFLUX_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190325.nc
+
+  AFLUX_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190330.nc
+
+  AFLUX_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190331.nc
+
+  AFLUX_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190401.nc
+
+  AFLUX_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190403.nc
+
+  AFLUX_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190404.nc
+
+  AFLUX_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190406.nc
+
+  AFLUX_P5_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190407.nc
+
+  AFLUX_P5_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190408.nc
+
+  AFLUX_P5_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/930932/files/AisaEAGLE_AFLUX_Flight_20190411.nc
