@@ -56,6 +56,12 @@ sources:
     description: Data from the HAMP-MIRA radar
     driver: yaml_file_cat
     metadata: {}
+  KT19:
+    args:
+      path: '{{CATALOG_DIR}}/kt19.yaml'
+    description: Data from the KT19 thermal radiometer
+    driver: yaml_file_cat
+    metadata: {}
   SMART:
     args:
       path: '{{CATALOG_DIR}}/smart.yaml'
