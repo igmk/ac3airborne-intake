@@ -74,7 +74,6 @@ sources:
     description: 'Spectral solar cloud top radiance measured by airborne spectral imaging (AISA Hawk)'
     driver: yaml_file_cat
     metadata: {}
-
   EAGLE:
     args:
       path: "{{CATALOG_DIR}}/eagle.yaml"
@@ -91,5 +90,12 @@ sources:
     args:
       path: '{{CATALOG_DIR}}/2d_spec.yaml'
     description: 2D stereoscopic probes
+    driver: yaml_file_cat
+    metadata: {}
+  NOSE_BOOM:
+    args:
+      path: '{{CATALOG_DIR}}/nose_boom.yaml'
+    description: High resolution aircraft measurements of wind and temperature at
+      the nose boom of the aircraft
     driver: yaml_file_cat
     metadata: {}

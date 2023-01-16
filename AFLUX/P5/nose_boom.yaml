@@ -1,0 +1,326 @@
+sources:
+  AFLUX_P5_RF02:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190319_02_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF03:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190321_03_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF04:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190323_04_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF05:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190324_05_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF06:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190325_06_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF07:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190330_07_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF08:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190331_08_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF09:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190401_09_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF10:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190403_10_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF12:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190406_12_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF13:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190407_13_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF14:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190408_14_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  AFLUX_P5_RF15:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/945844/files/Flight_20190411_15_P5_turbdata.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - lon
+        - lat
+        - h
+        - p
+        - T
+        - u
+        - v
+        - w
+        - pitch
+        - roll
+        - thdg
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip

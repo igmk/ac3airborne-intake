@@ -1,0 +1,287 @@
+sources:
+  MOSAiC-ACA_P5_RF01:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200806_P5_01_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF02:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200830_P5_02_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF03:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200831_P5_03_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF04:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200831_P5_04_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF05:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200902_P5_05_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF06:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200904_P5_06_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF07:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200907_P5_07_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF08:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200908_P5_08_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF09:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200910_P5_09_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF10:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200911_P5_10_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
+  MOSAiC-ACA_P5_RF11:
+    driver: csv
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/947787/files/Flight_20200913_P5_11_100Hz.asc.gz
+      csv_kwargs:
+        sep: \s+
+        header: null
+        names:
+        - t
+        - h
+        - lon
+        - lat
+        - p
+        - gs
+        - pitch
+        - roll
+        - rh
+        - T
+        - u
+        - v
+        - tas
+        comment: '!'
+        blocksize: null
+        engine: python
+        encoding: ascii
+        compression: gzip
