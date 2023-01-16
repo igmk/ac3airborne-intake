@@ -1,0 +1,29 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  MOSAiC-ACA_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/946965/files/AisaHAWK_MOSAiC_ACA_S_Flight_20200902a.nc
+
+  MOSAiC-ACA_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/946965/files/AisaHAWK_MOSAiC_ACA_S_Flight_20200904a.nc
+
+  MOSAiC-ACA_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/946965/files/AisaHAWK_MOSAiC_ACA_S_Flight_20200910a.nc
+
+  MOSAiC-ACA_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/946965/files/AisaHAWK_MOSAiC_ACA_S_Flight_20200911a.nc
+
+  MOSAiC-ACA_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/946965/files/AisaHAWK_MOSAiC_ACA_S_Flight_20200913a.nc
