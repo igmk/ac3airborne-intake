@@ -1,0 +1,84 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  HALO-AC3_HALO_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220311_RF01.nc
+  HALO-AC3_HALO_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220312_RF02.nc
+  HALO-AC3_HALO_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220313_RF03.nc
+  HALO-AC3_HALO_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220314_RF04.nc
+  HALO-AC3_HALO_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220315_RF05.nc
+  HALO-AC3_HALO_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220316_RF06.nc
+  HALO-AC3_HALO_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220320_RF07.nc
+  HALO-AC3_HALO_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220321_RF08.nc
+  HALO-AC3_HALO_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220328_RF09.nc
+  HALO-AC3_HALO_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220329_RF10.nc
+  HALO-AC3_HALO_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220330_RF11.nc
+  HALO-AC3_HALO_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220401_RF12.nc
+  HALO-AC3_HALO_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220404_RF13.nc
+  HALO-AC3_HALO_RF14:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220407_RF14.nc
+  HALO-AC3_HALO_RF15:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220408_RF15.nc
+  HALO-AC3_HALO_RF16:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220410_RF16.nc
+  HALO-AC3_HALO_RF17:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220411_RF17.nc
+  HALO-AC3_HALO_RF18:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220412_RF18.nc}
