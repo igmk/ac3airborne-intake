@@ -17,6 +17,13 @@ sources:
   NOSE_BOOM:
     args:
       path: '{{CATALOG_DIR}}/nose_boom.yaml'
+    description: 1s resolution aircraft measurements of wind and temperature at
+      the nose boom of the aircraft
+    driver: yaml_file_cat
+    metadata: {}
+  NOSE_BOOM_TURB:
+    args:
+      path: '{{CATALOG_DIR}}/nose_boom_turb.yaml'
     description: High resolution aircraft measurements of wind and temperature at
       the nose boom of the aircraft
     driver: yaml_file_cat

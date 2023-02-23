@@ -2,23 +2,24 @@ sources:
   ACLOUD_P6_RF07:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170527_06_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170527_06_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -27,23 +28,24 @@ sources:
   ACLOUD_P6_RF08:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170529_07_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170529_07_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -52,23 +54,24 @@ sources:
   ACLOUD_P6_RF09:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170530_08_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170530_08_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -77,23 +80,24 @@ sources:
   ACLOUD_P6_RF10:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170531_09_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170531_09_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -102,23 +106,24 @@ sources:
   ACLOUD_P6_RF11:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170602_10_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170602_10_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -127,23 +132,24 @@ sources:
   ACLOUD_P6_RF12:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170604_11_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170604_11_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -152,23 +158,24 @@ sources:
   ACLOUD_P6_RF13:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170605_12_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170605_12_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -177,23 +184,24 @@ sources:
   ACLOUD_P6_RF14:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170608_13_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170608_13_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -202,23 +210,24 @@ sources:
   ACLOUD_P6_RF15:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170609_14_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170609_14_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -227,23 +236,24 @@ sources:
   ACLOUD_P6_RF16:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170613_15_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170613_15_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -252,23 +262,24 @@ sources:
   ACLOUD_P6_RF17:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170614_16_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170614_16_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -277,23 +288,24 @@ sources:
   ACLOUD_P6_RF18:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170616_17_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170616_17_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -302,23 +314,24 @@ sources:
   ACLOUD_P6_RF19:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170617_18_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170617_18_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -327,23 +340,24 @@ sources:
   ACLOUD_P6_RF20:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170618_19_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170618_19_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -352,23 +366,24 @@ sources:
   ACLOUD_P6_RF21:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170620_20_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170620_20_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -377,23 +392,24 @@ sources:
   ACLOUD_P6_RF22:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170623_21_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170623_21_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -402,23 +418,24 @@ sources:
   ACLOUD_P6_RF23:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170625_22_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170625_22_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -427,23 +444,24 @@ sources:
   ACLOUD_P6_RF24:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170626_23_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170626_23_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
@@ -452,23 +470,24 @@ sources:
   ACLOUD_P6_RF25:
     driver: csv
     args:
-      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170626_24_P6_turbdata.asc.gz
+      urlpath: simplecache::https://hs.pangaea.de/Projects/AC3/ACLOUD_meteo/Flight_20170626_24_P6_1s.asc.gz
       csv_kwargs:
         sep: \s+
         header: null
         names:
         - t
+        - h
         - lon
         - lat
-        - h
         - p
+        - gs
+        - pitch
+        - roll
+        - rh
         - T
         - u
         - v
-        - w
-        - pitch
-        - roll
-        - thdg
+        - tas
         comment: '!'
         blocksize: null
         engine: python
