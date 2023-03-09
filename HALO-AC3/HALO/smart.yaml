@@ -1,88 +1,81 @@
 metadata:
+  doi: 10.1594/PANGAEA.956151
+  version: 1.0
   parameters:
-    user:
+    base_path:
       type: str
-      description: user name for ac3 cloud
-    password:
-      type: str
-      description: password for ac3 cloud
+      description: default filepath
+      default: https://download.pangaea.de/dataset/956151/files
 plugins:
   source:
   - module: intake_xarray
+
 sources:
-  HALO-AC3_HALO_RF00:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220225_RF00.nc
-  HALO-AC3_HALO_RF01:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220311_RF01.nc
   HALO-AC3_HALO_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220312_RF02.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220312_RF02_v1.0.nc
   HALO-AC3_HALO_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220313_RF03.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220313_RF03_v1.0.nc
   HALO-AC3_HALO_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220314_RF04.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220314_RF04_v1.0.nc
   HALO-AC3_HALO_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220315_RF05.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220315_RF05_v1.0.nc
   HALO-AC3_HALO_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220316_RF06.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220316_RF06_v1.0.nc
   HALO-AC3_HALO_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220320_RF07.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220320_RF07_v1.0.nc
   HALO-AC3_HALO_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220321_RF08.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220321_RF08_v1.0.nc
   HALO-AC3_HALO_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220328_RF09.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220328_RF09_v1.0.nc
   HALO-AC3_HALO_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220329_RF10.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220329_RF10_v1.0.nc
   HALO-AC3_HALO_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220330_RF11.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220330_RF11_v1.0.nc
   HALO-AC3_HALO_RF12:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220401_RF12.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220401_RF12_v1.0.nc
   HALO-AC3_HALO_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220404_RF13.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220404_RF13_v1.0.nc
   HALO-AC3_HALO_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220407_RF14.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220407_RF14_v1.0.nc
   HALO-AC3_HALO_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220408_RF15.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220408_RF15_v1.0.nc
   HALO-AC3_HALO_RF16:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220410_RF16.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220410_RF16_v1.0.nc
   HALO-AC3_HALO_RF17:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220411_RF17.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220411_RF17_v1.0.nc
   HALO-AC3_HALO_RF18:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/SMART/HALO-AC3_HALO_SMART_spectral_irradiance_Fdw_ql_20220412_RF18.nc
+      urlpath: simplecache::{{ base_path }}/HALO-AC3_HALO_SMART_spectral-irradiance-Fdw_20220412_RF18_v1.0.nc

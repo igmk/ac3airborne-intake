@@ -65,7 +65,7 @@ sources:
   SMART:
     args:
       path: '{{CATALOG_DIR}}/smart.yaml'
-    description: Data from the SMART radiometers
+    description: Published and calibrated data from the SMART radiometers
     driver: yaml_file_cat
     metadata: {}
   AMSR2_SIC:
