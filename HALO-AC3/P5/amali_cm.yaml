@@ -9,10 +9,6 @@ plugins:
       type: str
       description: password for ac3 cloud
 sources:
-  HALO-AC3_P5_RF00:
-    driver: netcdf
-    args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/amali_cm/HALO-AC3_P5_AMALi_l2_cm_20220309_RF00.nc
   HALO-AC3_P5_RF01:
     driver: netcdf
     args:
