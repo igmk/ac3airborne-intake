@@ -111,3 +111,27 @@ sources:
       the nose boom of the aircraft
     driver: yaml_file_cat
     metadata: {}
+  ESA_CCI_SST:
+    args:
+      path: '{{CATALOG_DIR}}/esa_cci_sst.yaml'
+    description: ESA CCI sea surface temperature data on flight path
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi:
+    args:
+      path: '{{CATALOG_DIR}}/amali.yaml'
+    description: AMALi attenuated backscatter profiles
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi_CM:
+    args:
+      path: '{{CATALOG_DIR}}/amali_cm.yaml'
+    description: Cloud mask derived from AMALi
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi_CTH:
+    args:
+      path: '{{CATALOG_DIR}}/amali_cth.yaml'
+    description: Cloud top height derived from AMALi
+    driver: yaml_file_cat
+    metadata: {}
