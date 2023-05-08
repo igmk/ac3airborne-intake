@@ -81,4 +81,4 @@ sources:
   HALO-AC3_HALO_RF18:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220412_RF18.nc}
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/halo/KT19/HALO-AC3_HALO_KT19_BrightnessTemperature_20220412_RF18.nc
