@@ -32,6 +32,18 @@ sources:
     description: Aircraft position and attitude data as recorded by HALO-SMART
     driver: yaml_file_cat
     metadata: {}
+  HAMP_RADIOMETER:
+    args:
+      path: '{{CATALOG_DIR}}/hamp_radiometer.yaml'
+    description: Unified data from the HAMP passive module
+    driver: yaml_file_cat
+    metadata: {}
+  HAMP_RADAR:
+    args:
+      path: '{{CATALOG_DIR}}/hamp_radar.yaml'
+    description: Unified data from the HAMP radar
+    driver: yaml_file_cat
+    metadata: {}
   HAMP_KV:
     args:
       path: '{{CATALOG_DIR}}/hamp_kv.yaml'
