@@ -33,3 +33,9 @@ sources:
     description: Data from the HALO-AC3 campaign
     driver: yaml_file_cat
     metadata: {}
+  HAMAG:
+    args:
+      path: '{{CATALOG_DIR}}/HAMAG/main.yaml'
+    description: Data from the HAMAG campaign
+    driver: yaml_file_cat
+    metadata: {}
