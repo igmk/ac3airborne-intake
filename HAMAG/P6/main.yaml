@@ -1,0 +1,22 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  GPS_INS:
+    args:
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data
+    driver: yaml_file_cat
+    metadata: {}
+  MiRAC-A:
+    args:
+      path: '{{CATALOG_DIR}}/mirac-a.yaml'
+    description: MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+  DROPSONDES:
+    args:
+      path: '{{CATALOG_DIR}}/dropsondes.yaml'
+    description: Launched dropsondes
+    driver: yaml_file_cat
+    metadata: {}

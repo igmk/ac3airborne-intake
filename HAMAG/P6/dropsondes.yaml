@@ -1,0 +1,21 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  HAMAG_P6_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/dropsondes/HAMAG_P6_Dropsondes_20240209_RF01/Level_1/D20240209_{{time}}PQC.nc
+    description: 101736,105606,112458,114135,115522
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
