@@ -37,5 +37,32 @@ sources:
       time:
         description: Time of dropsondes
         type: str
+  HAMAG_P6_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/dropsondes/HAMAG_P6_Dropsondes_20240215_RF04/Level_1/D20240215_{{time}}QC.nc
+    description: 091408,094756,095644,101754,104419,110125,121940
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
+  HAMAG_P6_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/dropsondes/HAMAG_P6_Dropsondes_20240218_RF05/Level_1/D20240218_{{time}}QC.nc
+    description: 100324,103234,111134,115047,123509
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
+  HAMAG_P6_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/dropsondes/HAMAG_P6_Dropsondes_20240219_RF06/Level_1/D20240219_{{time}}QC.nc
+    description: 095842,102015,104532,110426,112430,125442
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
 
         
