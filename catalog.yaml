@@ -6,7 +6,7 @@ sources:
   ACLOUD:
     args:
       path: '{{CATALOG_DIR}}/ACLOUD/main.yaml'
-    description: Data from the ACLOUD campaign
+    description: Data from the Polar 5 and Polar 6 aircraft during ACLOUD campaign
     driver: yaml_file_cat
     metadata: {}
   PAMARCMiP:
@@ -30,12 +30,12 @@ sources:
   HALO-AC3:
     args:
       path: '{{CATALOG_DIR}}/HALO-AC3/main.yaml'
-    description: Data from the HALO-AC3 campaign
+    description: Data from the Polar 5, Polar 6, and HALO aircraft during HALO-AC3 campaign
     driver: yaml_file_cat
     metadata: {}
   HAMAG:
     args:
       path: '{{CATALOG_DIR}}/HAMAG/main.yaml'
-    description: Data from the HAMAG campaign
+    description: Data from the Polar 6 aircraft during the HAMAG campaign
     driver: yaml_file_cat
     metadata: {}
