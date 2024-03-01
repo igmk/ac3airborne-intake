@@ -14,6 +14,18 @@ sources:
     description: MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data
     driver: yaml_file_cat
     metadata: {}
+  MiRAC-P:
+    args:
+      path: '{{CATALOG_DIR}}/mirac-p.yaml'
+    description: MiRAC-P 6x183 and 243 GHz radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+  KT19:
+    args:
+      path: '{{CATALOG_DIR}}/kt19.yaml'
+    description: KT19 data
+    driver: yaml_file_cat
+    metadata: {}
   DROPSONDES:
     args:
       path: '{{CATALOG_DIR}}/dropsondes.yaml'
