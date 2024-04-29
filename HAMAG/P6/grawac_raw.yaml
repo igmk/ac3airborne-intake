@@ -1,0 +1,68 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  HAMAG_P6_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/grawac_raw/HAMAG_P6_GRaWAC_20240209_{{time}}_RF01.nc
+    description: 101736,105606,112458,114135,115522
+    parameters:
+      time:
+        description: Time of raw file
+        type: str
+  HAMAG_P6_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/grawac_raw/HAMAG_P6_GRaWAC_20240212_{{time}}_RF02.nc
+    description: 111849
+    parameters:
+      time:
+        description: Time of raw file
+        type: str
+  HAMAG_P6_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/grawac_raw/HAMAG_P6_GRaWAC_20240213_{{time}}_RF03.nc
+    description: 102607,110410
+    parameters:
+      time:
+        description: Time of raw file
+        type: str
+  HAMAG_P6_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/grawac_raw/HAMAG_P6_GRaWAC_20240215_{{time}}_RF04.nc
+    description: 083143,090000,100119,110000,112314,112706,113727,120000,120033
+    parameters:
+      time:
+        description: Time of raw file
+        type: str
+  HAMAG_P6_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/grawac_raw/HAMAG_P6_GRaWAC_20240218_{{time}}_RF05.nc
+    description: 100324,103234,111134,115047,123509
+    parameters:
+      time:
+        description: Time of raw file
+        type: str
+  HAMAG_P6_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/grawac_raw/HAMAG_P6_GRaWAC_20240219_{{time}}_RF06.nc
+    description: 095842,102015,104532,110426,112430,125442
+    parameters:
+      time:
+        description: Time of raw file
+        type: str
+
+        
