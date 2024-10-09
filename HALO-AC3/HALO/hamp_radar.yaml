@@ -1,3 +1,11 @@
+metadata:
+  doi: 10.1594/PANGAEA.963250
+  version: 1.0
+  parameters:
+    base_path:
+      type: str
+      description: default filepath
+      default: https://download.pangaea.de/dataset/963250/files
 plugins:
   source:
   - module: intake_xarray
@@ -5,72 +13,72 @@ sources:
   HALO-AC3_HALO_RF01:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF01_20220311_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF01_20220311_v2.6.nc
   HALO-AC3_HALO_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF02_20220312_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF02_20220312_v2.6.nc
   HALO-AC3_HALO_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF03_20220313_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF03_20220313_v2.6.nc
   HALO-AC3_HALO_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF04_20220314_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF04_20220314_v2.6.nc
   HALO-AC3_HALO_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF05_20220315_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF05_20220315_v2.6.nc
   HALO-AC3_HALO_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF06_20220316_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF06_20220316_v2.6.nc
   HALO-AC3_HALO_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF07_20220320_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF07_20220320_v2.6.nc
   HALO-AC3_HALO_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF08_20220321_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF08_20220321_v2.6.nc
   HALO-AC3_HALO_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF09_20220328_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF09_20220328_v2.6.nc
   HALO-AC3_HALO_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF10_20220329_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF10_20220329_v2.6.nc
   HALO-AC3_HALO_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF11_20220330_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF11_20220330_v2.6.nc
   HALO-AC3_HALO_RF12:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF12_20220401_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF12_20220401_v2.6.nc
   HALO-AC3_HALO_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF13_20220404_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF13_20220404_v2.6.nc
   HALO-AC3_HALO_RF14:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF14_20220407_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF14_20220407_v2.6.nc
   HALO-AC3_HALO_RF15:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF15_20220408_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF15_20220408_v2.6.nc
   HALO-AC3_HALO_RF16:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF16_20220410_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF16_20220410_v2.6.nc
   HALO-AC3_HALO_RF17:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF17_20220411_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF17_20220411_v2.6.nc
   HALO-AC3_HALO_RF18:
     driver: netcdf
     args:
-      urlpath: simplecache::https://download.pangaea.de/dataset/963250/files/HALO_HALO_AC3_radar_unified_RF18_20220412_v2.6.nc
+      urlpath: simplecache::{{ base_path }}/HALO_HALO_AC3_radar_unified_RF18_20220412_v2.6.nc
