@@ -21,7 +21,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -47,7 +46,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -73,7 +71,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -99,7 +96,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -125,7 +121,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -151,7 +146,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -177,7 +171,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -203,7 +196,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -229,7 +221,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -255,7 +246,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -281,7 +271,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -307,7 +296,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -333,7 +321,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -359,7 +346,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -385,7 +371,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -411,7 +396,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -437,7 +421,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -463,7 +446,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
@@ -489,7 +471,6 @@ sources:
         - v
         - tas
         comment: '!'
-        blocksize: null
         engine: python
         encoding: ascii
         compression: gzip
