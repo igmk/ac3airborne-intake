@@ -23,7 +23,7 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/hamag/p6/dropsondes/HAMAG_P6_Dropsondes_20240212_RF02/Level_1/D20240212_{{time}}QC.nc
-    description: 111849,
+    description: "111849"
     parameters:
       time:
         description: Time of dropsondes
