@@ -1,0 +1,136 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  HALO-AC3_P5_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220320_RF01_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220322_RF03_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220325_RF04_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220328_RF05_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220329_RF06_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220329_RF07_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220330_RF08_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220401_RF09_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220404_RF10_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220405_RF11_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220407_RF12_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
+  HALO-AC3_P5_RF13:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://download.pangaea.de/dataset/967288/files/HALO-AC3_P5_NIKON_radiance_20220410_RF13_{{
+        hour }}UTC.nc
+      xarray_kwargs:
+        decode_times: false
+    parameters:
+      hour:
+        description: hour of day (hh, UTC)
+        type: str
