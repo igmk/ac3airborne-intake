@@ -1,63 +1,56 @@
 plugins:
   source:
   - module: intake_xarray
-  parameters:
-    user:
-      type: str
-      description: user name for ac3 cloud
-    password:
-      type: str
-      description: password for ac3 cloud
 sources:
   HALO-AC3_P5_RF01:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220320_RF01.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220320_RF01.nc
   HALO-AC3_P5_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220322_RF02.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220322_RF02.nc
   HALO-AC3_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220322_RF03.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220322_RF03.nc
   HALO-AC3_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220325_RF04.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220325_RF04.nc
   HALO-AC3_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220328_RF05.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220328_RF05.nc
   HALO-AC3_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220329_RF06.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220329_RF06.nc
   HALO-AC3_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220329_RF07.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220329_RF07.nc
   HALO-AC3_P5_RF08:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220330_RF08.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220330_RF08.nc
   HALO-AC3_P5_RF09:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220401_RF09.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220401_RF09.nc
   HALO-AC3_P5_RF10:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220404_RF10.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220404_RF10.nc
   HALO-AC3_P5_RF11:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220405_RF11.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220405_RF11.nc
   HALO-AC3_P5_RF12:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220407_RF12.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220407_RF12.nc
   HALO-AC3_P5_RF13:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220410_RF13.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/halo-ac3/p5/esa_cci_sst/HALO-AC3_P5_sst_20220410_RF13.nc
