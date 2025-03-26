@@ -8,6 +8,12 @@ sources:
     description: Aircraft position and attitude data
     driver: yaml_file_cat
     metadata: {}
+  GRaWAC:
+    args:
+      path: '{{CATALOG_DIR}}/grawac.yaml'
+    description: GRaWAC 167/174 GHz DAR radar data
+    driver: yaml_file_cat
+    metadata: {}
   MiRAC-A:
     args:
       path: '{{CATALOG_DIR}}/mirac-a.yaml'

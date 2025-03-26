@@ -1,0 +1,16 @@
+metadata:
+  parameters:
+    user:
+      type: str
+      description: user name for ac3 cloud
+    password:
+      type: str
+      description: password for ac3 cloud
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  COMPEX-EC_P5_RF00:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/gps_ins/COMPEX-EC_P5_GPS_INS_20250326_RF00.nc

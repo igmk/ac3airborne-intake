@@ -39,3 +39,17 @@ sources:
     description: Data from the Polar 6 aircraft during the HAMAG campaign
     driver: yaml_file_cat
     metadata: {}
+  COMPEX-EC:
+    args:
+      path: '{{CATALOG_DIR}}/COMPEX-EC/main.yaml'
+    description: Data from the Polar 5 aircraft during the COMPEX-EC campaign
+    driver: yaml_file_cat
+    metadata: {}
+  COMPEX:
+    args:
+      path: '{{CATALOG_DIR}}/COMPEX/main.yaml'
+    description: Data from the Polar 5 aircraft during the COMPEX campaign
+    driver: yaml_file_cat
+    metadata: {}
+
+
