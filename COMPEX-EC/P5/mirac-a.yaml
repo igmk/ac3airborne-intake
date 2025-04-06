@@ -1,11 +1,3 @@
-metadata:
-  parameters:
-    user:
-      type: str
-      description: user name for ac3 cloud
-    password:
-      type: str
-      description: password for ac3 cloud
 plugins:
   source:
   - module: intake_xarray
@@ -13,4 +5,8 @@ sources:
   COMPEX-EC_P5_RF00:
     driver: netcdf
     args:
-      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250326_RF00.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250326_RF00.nc
+  COMPEX-EC_P5_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250404_RF01.nc
