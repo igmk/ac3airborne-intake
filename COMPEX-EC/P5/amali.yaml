@@ -1,0 +1,8 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  COMPEX-EC_P5_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/amali/COMPEX-EC_P5_AMALi_20250404_RF01.nc
