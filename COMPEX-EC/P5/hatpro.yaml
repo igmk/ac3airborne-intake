@@ -10,3 +10,4 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250404_RF01.nc
+
