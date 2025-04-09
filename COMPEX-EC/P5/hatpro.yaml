@@ -1,11 +1,3 @@
-metadata:
-  parameters:
-    user:
-      type: str
-      description: user name for ac3 cloud
-    password:
-      type: str
-      description: password for ac3 cloud
 plugins:
   source:
   - module: intake_xarray
@@ -18,4 +10,16 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250404_RF01.nc
+  COMPEX-EC_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250406_RF02.nc
+  COMPEX-EC_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250407_RF03.nc
+  COMPEX-EC_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250408_RF04.nc    
 
