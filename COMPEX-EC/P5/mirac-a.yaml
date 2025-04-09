@@ -13,12 +13,12 @@ sources:
   COMPEX-EC_P5_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250406_RF01.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250406_RF02.nc
   COMPEX-EC_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250407_RF01.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250407_RF03.nc
   COMPEX-EC_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250408_RF01.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/mirac-a/COMPEX-EC_P5_MiRAC-A_20250408_RF04.nc
