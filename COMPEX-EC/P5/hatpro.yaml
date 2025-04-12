@@ -21,5 +21,9 @@ sources:
   COMPEX-EC_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250408_RF04.nc    
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250408_RF04.nc
+  COMPEX-EC_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/hatpro/COMPEX-EC_P5_HATPRO_20250411_RF05.nc    
 
