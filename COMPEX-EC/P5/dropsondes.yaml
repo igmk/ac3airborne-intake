@@ -28,3 +28,21 @@ sources:
       time:
         description: Time of dropsondes
         type: str
+  COMPEX-EC_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250411_RF05/D20250411_{{time}}QC.nc
+    description: 131052,132303,133505,135216,140424,141637
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
+COMPEX-EC_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250413_RF06/D20250413_{{time}}QC.nc
+    description: 123718,125312,130917,132548,133502,134317,135009,135938,140928
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
