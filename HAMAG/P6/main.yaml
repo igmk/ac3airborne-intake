@@ -38,3 +38,9 @@ sources:
     description: Launched dropsondes
     driver: yaml_file_cat
     metadata: {}
+  AMSR2_SIC:
+    args:
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
+    driver: yaml_file_cat
+    metadata: {}

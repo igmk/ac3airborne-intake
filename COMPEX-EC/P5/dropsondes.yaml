@@ -10,7 +10,7 @@ plugins:
   source:
   - module: intake_xarray
 sources:
-  COMPEX-EC_RF01:
+  COMPEX-EC_P5_RF01:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250404_RF01/D20250404_{{time}}QC.nc
@@ -19,7 +19,7 @@ sources:
       time:
         description: Time of dropsondes
         type: str
-  COMPEX-EC_RF03:
+  COMPEX-EC_P5_RF03:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250407_RF03/D20250407_{{time}}QC.nc
@@ -28,7 +28,7 @@ sources:
       time:
         description: Time of dropsondes
         type: str
-  COMPEX-EC_RF05:
+  COMPEX-EC_P5_RF05:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250411_RF05/D20250411_{{time}}QC.nc
@@ -37,7 +37,7 @@ sources:
       time:
         description: Time of dropsondes
         type: str
-  COMPEX-EC_RF06:
+  COMPEX-EC_P5_RF06:
       driver: netcdf
       args:
         urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250413_RF06/D20250413_{{time}}QC.nc
@@ -46,7 +46,7 @@ sources:
         time:
           description: Time of dropsondes
           type: str
-  COMPEX-EC_RF07:
+  COMPEX-EC_P5_RF07:
       driver: netcdf
       args:
         urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250415_RF07/D20250415_{{time}}QC.nc
