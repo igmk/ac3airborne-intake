@@ -14,12 +14,6 @@ sources:
     description: Sea ice concentration at aircraft position derived from AMSR2
     driver: yaml_file_cat
     metadata: {}
-  # CLOUD_TOP_HEIGHT:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/cloud_top_height.yaml'
-  #   description: Cloud top height product derived from AMALi
-  #   driver: yaml_file_cat
-  #   metadata: {}
   MiRAC-A:
     args:
       path: '{{CATALOG_DIR}}/mirac-a.yaml'
@@ -38,57 +32,9 @@ sources:
     description: Launched dropsondes
     driver: yaml_file_cat
     metadata: {}
-  # FISH_EYE_CAMERA:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/fish_eye.yaml'
-  #   description: Fish-eye camera radiances
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  # HAWK:
-  #   args:
-  #     path: "{{CATALOG_DIR}}/hawk.yaml"
-  #   description: 'Spectral solar cloud top radiance measured by airborne spectral imaging (AISA Hawk)'
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  # EAGLE:
-  #   args:
-  #     path: "{{CATALOG_DIR}}/eagle.yaml"
-  #   description: 'Hyperspectral fields of visible and near infrared cloud top radiance observed by AISA Eagle'
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  # BROADBAND_IRRADIANCE:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/broadband_irradiance.yaml'
-  #   description: Solar and terrestrial broadband irradiance and nadir brightness temperature
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  # SMART:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/smart.yaml'
-  #   description: Spectral up- and downward irradiances measured by the Spectral Modular Airborne Radiation measurement sysTem (SMART-Albedometer)
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  # ESA_CCI_SST:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/esa_cci_sst.yaml'
-  #   description: ESA CCI sea surface temperature data on flight path
-  #   driver: yaml_file_cat
-  #   metadata: {}
   AMALi:
     args:
       path: '{{CATALOG_DIR}}/amali.yaml'
     description: AMALi attenuated backscatter profiles
     driver: yaml_file_cat
     metadata: {}
-  # AMALi_CM:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/amali_cm.yaml'
-  #   description: Cloud mask derived from AMALi
-  #   driver: yaml_file_cat
-  #   metadata: {}
-  # AMALi_CTH:
-  #   args:
-  #     path: '{{CATALOG_DIR}}/amali_cth.yaml'
-  #   description: Cloud top height derived from AMALi
-  #   driver: yaml_file_cat
-  #   metadata: {}
