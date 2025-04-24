@@ -1,0 +1,28 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:  
+  HAMAG_P6_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/hamag/p6/amsr2_sea_ice_concentration/HAMAG_P6_asi-AMSR2_sic_20240209_RF01.nc
+  HAMAG_P6_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/hamag/p6/amsr2_sea_ice_concentration/HAMAG_P6_asi-AMSR2_sic_20240212_RF02.nc
+  HAMAG_P6_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/hamag/p6/amsr2_sea_ice_concentration/HAMAG_P6_asi-AMSR2_sic_20240213_RF03.nc
+  HAMAG_P6_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/hamag/p6/amsr2_sea_ice_concentration/HAMAG_P6_asi-AMSR2_sic_20240215_RF04.nc
+  HAMAG_P6_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/hamag/p6/amsr2_sea_ice_concentration/HAMAG_P6_asi-AMSR2_sic_20240218_RF05.nc
+  HAMAG_P6_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/hamag/p6/amsr2_sea_ice_concentration/HAMAG_P6_asi-AMSR2_sic_20240219_RF06.nc
