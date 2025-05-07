@@ -38,3 +38,16 @@ sources:
     description: AMALi attenuated backscatter profiles
     driver: yaml_file_cat
     metadata: {}
+  AMALi_CM:
+    args:
+      path: '{{CATALOG_DIR}}/amali_cm.yaml'
+    description: Cloud mask derived from AMALi
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi_CTH:
+    args:
+      path: '{{CATALOG_DIR}}/amali_cth.yaml'
+    description: Cloud top height derived from AMALi
+    driver: yaml_file_cat
+    metadata: {}
+
