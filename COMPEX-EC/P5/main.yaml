@@ -50,4 +50,10 @@ sources:
     description: Cloud top height derived from AMALi
     driver: yaml_file_cat
     metadata: {}
+  JPL_GHR_SST:
+    args:
+      path: '{{CATALOG_DIR}}/jpl_ghr_sst.yaml'
+    description: JPL GHR sea surface temperature data on flight path
+    driver: yaml_file_cat
+    metadata: {}
 
