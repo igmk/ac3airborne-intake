@@ -5,35 +5,35 @@ sources:
   COMPEX-EC_P5_RF00:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250326_RF00.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250326_RF00.nc
   COMPEX-EC_P5_RF01:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250404_RF01.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250404_RF01.nc
   COMPEX-EC_P5_RF02:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250406_RF02.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250406_RF02.nc
   COMPEX-EC_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250407_RF03.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250407_RF03.nc
   COMPEX-EC_P5_RF04:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250408_RF04.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250408_RF04.nc
   COMPEX-EC_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250411_RF05.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250411_RF05.nc
   COMPEX-EC_P5_RF06:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250413_RF06.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250413_RF06.nc
   COMPEX-EC_P5_RF07:
     driver: netcdf
     args:
-      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/compact/COMPEX-EC_P5_MiRAC-A_20250415_RF07.nc
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex-ec/p5/mirac-a/processed/COMPEX-EC_P5_MiRAC-A_20250415_RF07.nc
   # COMPEX-EC_P5_RF00:
   #   driver: netcdf
   #   args:
