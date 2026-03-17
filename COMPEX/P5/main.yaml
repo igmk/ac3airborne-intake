@@ -1,0 +1,53 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  GPS_INS:
+    args:
+      path: '{{CATALOG_DIR}}/gps_ins.yaml'
+    description: Aircraft position and attitude data
+    driver: yaml_file_cat
+    metadata: {}
+  AMSR2_SIC:
+    args:
+      path: '{{CATALOG_DIR}}/amsr2_sic.yaml'
+    description: Sea ice concentration at aircraft position derived from AMSR2
+    driver: yaml_file_cat
+    metadata: {}
+  MiRAC-A:
+    args:
+      path: '{{CATALOG_DIR}}/mirac-a.yaml'
+    description: MiRAC-A 94 GHz cloud radar and 89 GHz radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+  HATPRO:
+    args:
+      path: '{{CATALOG_DIR}}/hatpro.yaml'
+    description: HATPRO 22 and 50 GHz radiometer data
+    driver: yaml_file_cat
+    metadata: {}
+  DROPSONDES:
+    args:
+      path: '{{CATALOG_DIR}}/dropsondes.yaml'
+    description: Launched dropsondes
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi:
+    args:
+      path: '{{CATALOG_DIR}}/amali.yaml'
+    description: AMALi attenuated backscatter profiles
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi_CM:
+    args:
+      path: '{{CATALOG_DIR}}/amali_cm.yaml'
+    description: Cloud mask derived from AMALi
+    driver: yaml_file_cat
+    metadata: {}
+  AMALi_CTH:
+    args:
+      path: '{{CATALOG_DIR}}/amali_cth.yaml'
+    description: Cloud top height derived from AMALi
+    driver: yaml_file_cat
+    metadata: {}
+
