@@ -48,7 +48,7 @@ sources:
   COMPEX:
     args:
       path: '{{CATALOG_DIR}}/COMPEX/main.yaml'
-    description: Data from the Polar 5 aircraft during the COMPEX-EC campaign
+    description: Data from the Polar 5 aircraft during the COMPEX campaign
     driver: yaml_file_cat
     metadata: {}
 
