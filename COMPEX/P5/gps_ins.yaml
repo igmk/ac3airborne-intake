@@ -6,3 +6,11 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/gps_ins/COMPEX_P5_GPS_INS_20260315_RF01.nc
+  COMPEX_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/gps_ins/COMPEX_P5_GPS_INS_20260316_RF02.nc
+  COMPEX_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/gps_ins/COMPEX_P5_GPS_INS_20260317_RF03.nc
