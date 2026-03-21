@@ -1,0 +1,20 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:  
+  COMPEX_P5_RF01:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260315_RF01.nc
+  COMPEX_P5_RF02:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260316_RF02.nc
+  COMPEX_P5_RF03:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260317_RF03.nc
+  COMPEX_P5_RF04:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260319_RF04.nc
