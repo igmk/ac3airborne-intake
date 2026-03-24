@@ -18,4 +18,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/kt19/COMPEX_P5_KT19_20260319_RF04.nc
+  COMPEX_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/kt19/COMPEX_P5_KT19_20260324_RF05.nc
       

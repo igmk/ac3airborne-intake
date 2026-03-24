@@ -18,3 +18,7 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/amali_cth/COMPEX_P5_AMALi_l2_cth_20260319_RF04.nc
+  COMPEX_P5_RF05:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/amali_cth/COMPEX_P5_AMALi_l2_cth_20260324_RF05.nc
