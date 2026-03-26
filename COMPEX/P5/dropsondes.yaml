@@ -70,3 +70,13 @@ sources:
       time:
         description: Time of dropsondes
         type: str
+  COMPEX_P5_RF07:
+    driver: netcdf
+    args:
+      #urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/dropsondes/2026/03/17/D20260317_{{time}}QC.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/dropsondes/COMPEX_P5_Dropsondes_20260326_RF07/D20260326_{{time}}QC.nc
+    description: 103842,111130,113058,120423,122515,130824
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
