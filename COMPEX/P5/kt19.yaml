@@ -30,4 +30,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/kt19/COMPEX_P5_KT19_20260326_RF07.nc
+  COMPEX_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/kt19/COMPEX_P5_KT19_20260327_RF08.nc
       
