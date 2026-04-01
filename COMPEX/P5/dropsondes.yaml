@@ -95,7 +95,7 @@ sources:
     args:
       #urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/dropsondes/2026/03/17/D20260317_{{time}}QC.nc
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/dropsondes/COMPEX_P5_Dropsondes_20260330_RF09/D20260330_{{time}}QC.nc
-    description: 
+    description: 114716,120844,130657,134338,141051
     parameters:
       time:
         description: Time of dropsondes
@@ -105,7 +105,7 @@ sources:
     args:
       #urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/dropsondes/2026/03/17/D20260317_{{time}}QC.nc
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/dropsondes/COMPEX_P5_Dropsondes_20260331_RF10/D20260331_{{time}}QC.nc
-    description: 
+    description: 085324,085826,123139
     parameters:
       time:
         description: Time of dropsondes
