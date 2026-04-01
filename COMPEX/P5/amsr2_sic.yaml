@@ -22,3 +22,23 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260324_RF05.nc
+  COMPEX_P5_RF06:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260324_RF05.nc
+  COMPEX_P5_RF07:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260326_RF07.nc
+  COMPEX_P5_RF08:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260327_RF08.nc
+  COMPEX_P5_RF09:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260330_RF09.nc
+  COMPEX_P5_RF10:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260331_RF10.nc
