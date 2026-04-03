@@ -42,3 +42,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260331_RF10.nc
+  COMPEX_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/amsr2_sea_ice_concentration/COMPEX_P5_asi-AMSR2_sic_20260402_RF11.nc
+      
