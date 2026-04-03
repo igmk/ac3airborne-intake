@@ -42,4 +42,8 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/mirac-p/COMPEX_P5_MiRAC-P_20260331_RF10.nc
+  COMPEX_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/mirac-p/COMPEX_P5_MiRAC-P_20260402_RF11.nc
 
