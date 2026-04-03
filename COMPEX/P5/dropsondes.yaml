@@ -110,7 +110,7 @@ sources:
       time:
         description: Time of dropsondes
         type: str
-  COMPEX_P5_RF10:
+  COMPEX_P5_RF11:
     driver: netcdf
     args:
       #urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/dropsondes/2026/03/17/D20260317_{{time}}QC.nc
