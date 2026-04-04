@@ -42,6 +42,14 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/mirac-a/processed/COMPEX_P5_MiRAC-A_20260331_RF10.nc
+  COMPEX_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/mirac-a/processed/COMPEX_P5_MiRAC-A_20260402_RF11.nc
+  COMPEX_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/mirac-a/processed/COMPEX_P5_MiRAC-A_20260404_RF12.nc
 #plugins:
 #  source:
 #  - module: intake_xarray

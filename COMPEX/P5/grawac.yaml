@@ -42,3 +42,11 @@ sources:
     driver: netcdf
     args:
       urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/grawac/COMPEX_P5_GRAWAC_20260331_RF10.nc
+  COMPEX_P5_RF11:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/grawac/COMPEX_P5_GRAWAC_20260402_RF11.nc
+  COMPEX_P5_RF12:
+    driver: netcdf
+    args:
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/grawac/COMPEX_P5_GRAWAC_20260404_RF12.nc
