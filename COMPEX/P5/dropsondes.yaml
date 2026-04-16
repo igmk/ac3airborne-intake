@@ -140,4 +140,24 @@ sources:
       time:
         description: Time of dropsondes
         type: str
+  COMPEX_P5_RF14:
+    driver: netcdf
+    args:
+      #urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/dropsondes/2026/03/17/D20260317_{{time}}QC.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/dropsondes/COMPEX_P5_Dropsondes_20260413_RF14/D20260413_{{time}}QC.nc
+    description: 101520,101556,101622,101648,101740,101810,105724
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
+  COMPEX_P5_RF15:
+    driver: netcdf
+    args:
+      #urlpath: simplecache::{{env(LOCAL_DATA)}}compex/p5/dropsondes/2026/03/17/D20260317_{{time}}QC.nc
+      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex/p5/dropsondes/COMPEX_P5_Dropsondes_20260414_RF15/D20260414_{{time}}QC.nc
+    description: 080902,081728,083626
+    parameters:
+      time:
+        description: Time of dropsondes
+        type: str
         
