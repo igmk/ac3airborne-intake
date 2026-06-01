@@ -13,7 +13,7 @@ sources:
   COMPEX-EC_P5_RF01:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250404_RF01/D20250404_{{time}}QC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250404_RF01/D20250404_{{time}}QC.nc
     description: 125602,134104,140254
     parameters:
       time:
@@ -22,7 +22,7 @@ sources:
   COMPEX-EC_P5_RF03:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250407_RF03/D20250407_{{time}}QC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250407_RF03/D20250407_{{time}}QC.nc
     description: 131637,133800,140424,141722,143122
     parameters:
       time:
@@ -31,7 +31,7 @@ sources:
   COMPEX-EC_P5_RF05:
     driver: netcdf
     args:
-      urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250411_RF05/D20250411_{{time}}QC.nc
+      urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250411_RF05/D20250411_{{time}}QC.nc
     description: 131052,132303,133505,135216,140424,141637
     parameters:
       time:
@@ -40,7 +40,7 @@ sources:
   COMPEX-EC_P5_RF06:
       driver: netcdf
       args:
-        urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250413_RF06/D20250413_{{time}}QC.nc
+        urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250413_RF06/D20250413_{{time}}QC.nc
       description: 123718,125312,130917,132548,133502,134317,135009,135938,140928
       parameters:
         time:
@@ -49,7 +49,7 @@ sources:
   COMPEX-EC_P5_RF07:
       driver: netcdf
       args:
-        urlpath: simplecache::https://atmos.meteo.uni-koeln.de/ac3/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250415_RF07/D20250415_{{time}}QC.nc
+        urlpath: simplecache::https://{{user}}:{{password}}@cloud.ac3-tr.de/remote.php/webdav/compex-ec/p5/dropsondes/COMPEX-EC_P5_Dropsondes_20250415_RF07/D20250415_{{time}}QC.nc
       description: 123218,125217,131047,133719,135712
       parameters:
         time:
