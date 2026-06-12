@@ -26,12 +26,12 @@ sources:
     description: MiRAC-P 6x183 and 243 GHz radiometer data
     driver: yaml_file_cat
     metadata: {}
-  GRaWAC:
-    args:
-      path: '{{CATALOG_DIR}}/grawac.yaml'
-    description: GRaWAC 167/174 GHz DAR radar data
-    driver: yaml_file_cat
-    metadata: {}
+  # GRaWAC:
+  #   args:
+  #     path: '{{CATALOG_DIR}}/grawac.yaml'
+  #   description: GRaWAC 167/174 GHz DAR radar data
+  #   driver: yaml_file_cat
+  #   metadata: {}
   KT19:
     args:
       path: '{{CATALOG_DIR}}/kt19.yaml'
